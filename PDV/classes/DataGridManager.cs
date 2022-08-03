@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace PDV.classes
 {
-    class DataGridManager
+    internal class DataGridManager
     {
         public string stringDeConexao;
         SqlDataAdapter dataAdapter;

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace PDV
 {
-    static class Program
+    internal static class Program
     {
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
@@ -16,7 +16,7 @@ namespace PDV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new form_login());
         }
     }
 }

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32630.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDV", "PDV\PDV.csproj", "{A7485C8C-B021-4E16-9B39-E0861A11CE39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDV", "PDV\PDV.csproj", "{C326DA43-6851-4743-84FB-B540B11BBD48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A7485C8C-B021-4E16-9B39-E0861A11CE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7485C8C-B021-4E16-9B39-E0861A11CE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7485C8C-B021-4E16-9B39-E0861A11CE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7485C8C-B021-4E16-9B39-E0861A11CE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C326DA43-6851-4743-84FB-B540B11BBD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C326DA43-6851-4743-84FB-B540B11BBD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C326DA43-6851-4743-84FB-B540B11BBD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C326DA43-6851-4743-84FB-B540B11BBD48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {220D664F-891F-4037-BBF4-5C0809FB9C45}
+		SolutionGuid = {2D07269E-02B5-47EC-8EE3-D1F2911662A1}
 	EndGlobalSection
 EndGlobal
