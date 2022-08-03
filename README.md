@@ -7,6 +7,12 @@ Project of a system which manages a store, its products and its employees.
 
 ![image](https://user-images.githubusercontent.com/93265472/182510721-86b1e50f-48aa-4e3b-8a29-3954f2b7fe8d.png)
 
+![image](https://user-images.githubusercontent.com/93265472/182672565-243a3752-042a-407c-9d68-4c9fe47bcbb8.png)
+
+![image](https://user-images.githubusercontent.com/93265472/182672665-97f6e4f1-9d53-4984-acee-7091e3eeeb30.png)
+
+![image](https://user-images.githubusercontent.com/93265472/182672763-440067e1-bb04-4f91-9563-2019f4df8948.png)
+
 <br>
 
 # DATABASE PROJECT
