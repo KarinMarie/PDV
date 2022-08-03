@@ -1,7 +1,23 @@
 # PDV - IN CONSTRUCTION
 Project of a system which manages a store, its products and its employees.
 
-![image](https://user-images.githubusercontent.com/93265472/182058964-62c19d15-0626-470e-949b-1f613d6ee868.png)
+![image](https://user-images.githubusercontent.com/93265472/182510501-cb6b3cb6-a003-4c2d-8d52-9bffc40f6bc2.png)
+
+![image](https://user-images.githubusercontent.com/93265472/182510577-c580977d-3fa8-4eaa-a2b3-c5ca096caee4.png)
+
+![image](https://user-images.githubusercontent.com/93265472/182510721-86b1e50f-48aa-4e3b-8a29-3954f2b7fe8d.png)
+
+<br>
+
+# DATABASE PROJECT
+
+    CONCEPTUAL DATA MODEL    
+![modelo_conceitual](https://user-images.githubusercontent.com/93265472/182511792-3227503f-d122-4406-8330-68e9a851a050.jpg)
+
+    LOGICAL DATA MODEL
+![modelo_logico](https://user-images.githubusercontent.com/93265472/182511877-0ead8444-1aff-47a2-b05b-2505eb9a121d.jpg)
+
+<br>
 
 # REFERENCES
 Here are the projects that inspired me
