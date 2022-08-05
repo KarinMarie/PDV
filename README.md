@@ -33,5 +33,7 @@ Here are the projects that inspired me
 [Vetrivel D - Insert,Delete and Update data in database from datagridview in c sharp](https://youtu.be/_sB0A6FIhUM)
 <br>
 [P O L A R T Z - Devlog - Gabriel PDV C# - Sistema pdv feito em c#](https://youtu.be/KmDALbS4mcw)
+<br>
+[Leandro Poloni Dantas - C# - Como imprimir um TextBox e um PictureBox](https://youtu.be/Dp1x8RDa4fQ)
 
 Thank you all for the good-quality content!
