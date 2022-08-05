@@ -38,7 +38,7 @@ namespace PDV.forms
         {
             if (string.IsNullOrEmpty(txtNome.Text) || num_preco.Value == 0 || cb_categoria.Text == "")
             {
-                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             
@@ -53,18 +53,18 @@ namespace PDV.forms
 
             if(confirmacao == 1)
             {
-                MessageBox.Show("Produto adicionado com êxito!", "INSERÇÃO DE PRODUTO", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("Produto adicionado com êxito!", "Inserção de produto", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_produtos();
             }
             else
-                MessageBox.Show("Erro na inserção do produto, tente novamente.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Erro na inserção do produto, tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void excluir_produto()
         {
             if(num_cod.Value == 0)
             {
-                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -76,18 +76,18 @@ namespace PDV.forms
 
             if (confirmacao == 1)
             {
-                MessageBox.Show("Produto deletado com êxito!", "DELETAR PRODUTO", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("Produto deletado com êxito!", "Deletar produto", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_produtos();
             }
             else
-                MessageBox.Show("Erro ao deletar produto, tente novamente.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Erro ao deletar produto, tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void atualizar_estoque()
         {
             if (numCodigoEstoque.Value == 0)
             {
-                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -100,18 +100,18 @@ namespace PDV.forms
 
             if (confirmacao == 1)
             {
-                MessageBox.Show("Estoque atualizado com êxito!", "ATUALIZAR ESTOQUE", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("Estoque atualizado com êxito!", "Atualizar estoque", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_produtos();
             }
             else
-                MessageBox.Show("Erro ao atualizar estoque produto, tente novamente.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Erro ao atualizar estoque produto, tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void filtrar_produtos()
         {
             if (cbFiltrarCategoria.Text == "")
             {
-                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -130,7 +130,7 @@ namespace PDV.forms
         }
 
         private void form_gerenciar_produtos_Load(object sender, EventArgs e)
-        {
+        {      
             carregar_produtos();
 
         }

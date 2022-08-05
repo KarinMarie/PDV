@@ -38,7 +38,7 @@ namespace PDV.forms
         {
             if (string.IsNullOrEmpty(txtUsuarioAdicionar.Text) || string.IsNullOrEmpty(txtSenhaAdicionar.Text))
             {
-                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -51,18 +51,18 @@ namespace PDV.forms
 
             if (confirmacao == 1)
             {
-                MessageBox.Show("Funcionário adicionado com êxito!", "ADICIONAR FUNCIONÁRIO", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("Funcionário adicionado com êxito!", "Adicionar funcionário", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_funcionarios();
             }
             else
-                MessageBox.Show("Erro ao adicionar funcionário, tente novamente.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Erro ao adicionar funcionário, tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void remover_funcionario()
         {
             if (string.IsNullOrEmpty(txtUsuarioRemover.Text))
             {
-                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -74,11 +74,11 @@ namespace PDV.forms
 
             if (confirmacao == 1)
             {
-                MessageBox.Show("Funcionário removido com êxito!", "DELETAR PRODUTO", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("Funcionário removido com êxito!", "Deletar produto", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_funcionarios();
             }
             else
-                MessageBox.Show("Erro ao remover funcionário, tente novamente.", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Erro ao remover funcionário, tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void form_gerenciar_funcionarios_Load(object sender, EventArgs e)
