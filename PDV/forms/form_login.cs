@@ -60,5 +60,12 @@ namespace PDV
                 lblAviso.Text = "Não foi possível realizar o\nlog-in, tente novamente.";
 
         }
+
+        private void chkMostrarSenha_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkMostrarSenha.Checked)
+                txtSenha.PasswordChar = '\0';
+            else txtSenha.PasswordChar = '●';
+        }
     }
 }

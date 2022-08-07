@@ -47,5 +47,15 @@ namespace PDV.forms
                 Show();
             }
         }
+
+        private void btnHistorico_Click(object sender, EventArgs e)
+        {
+            using(form_historico historico = new form_historico())
+            {
+                Hide();
+                historico.ShowDialog();
+                Show();
+            }
+        }
     }
 }

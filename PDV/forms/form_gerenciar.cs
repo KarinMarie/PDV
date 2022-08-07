@@ -41,5 +41,15 @@ namespace PDV.forms
                 Show();
             }
         }
+
+        private void btnAvancado_Click(object sender, EventArgs e)
+        {
+            using(form_gerenciar_avancado avancado = new form_gerenciar_avancado())
+            {
+                Hide();
+                avancado.ShowDialog();
+                Show();
+            }
+        }
     }
 }

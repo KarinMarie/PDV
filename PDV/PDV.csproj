@@ -71,11 +71,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classes\DataBaseManager.cs" />
+    <Compile Include="classes\DataGridManager.cs" />
     <Compile Include="forms\form_gerenciar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\form_gerenciar.Designer.cs">
       <DependentUpon>form_gerenciar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\form_gerenciar_avancado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\form_gerenciar_avancado.Designer.cs">
+      <DependentUpon>form_gerenciar_avancado.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\form_gerenciar_funcionarios.cs">
       <SubType>Form</SubType>
@@ -88,6 +95,12 @@
     </Compile>
     <Compile Include="forms\form_gerenciar_produtos.Designer.cs">
       <DependentUpon>form_gerenciar_produtos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\form_historico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\form_historico.Designer.cs">
+      <DependentUpon>form_historico.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\form_login.cs">
       <SubType>Form</SubType>
@@ -112,11 +125,17 @@
     <EmbeddedResource Include="forms\form_gerenciar.resx">
       <DependentUpon>form_gerenciar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\form_gerenciar_avancado.resx">
+      <DependentUpon>form_gerenciar_avancado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\form_gerenciar_funcionarios.resx">
       <DependentUpon>form_gerenciar_funcionarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\form_gerenciar_produtos.resx">
       <DependentUpon>form_gerenciar_produtos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\form_historico.resx">
+      <DependentUpon>form_historico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\form_login.resx">
       <DependentUpon>form_login.cs</DependentUpon>

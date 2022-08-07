@@ -34,6 +34,7 @@
             this.btnAjuda = new MetroFramework.Controls.MetroButton();
             this.btnSair = new MetroFramework.Controls.MetroButton();
             this.lblAdmin = new MetroFramework.Controls.MetroLabel();
+            this.btnHistorico = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // btnVender
@@ -52,7 +53,7 @@
             // 
             this.btnGerenciar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnGerenciar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnGerenciar.Location = new System.Drawing.Point(23, 172);
+            this.btnGerenciar.Location = new System.Drawing.Point(23, 238);
             this.btnGerenciar.Name = "btnGerenciar";
             this.btnGerenciar.Size = new System.Drawing.Size(278, 48);
             this.btnGerenciar.TabIndex = 1;
@@ -64,7 +65,7 @@
             // 
             this.btnAjuda.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnAjuda.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnAjuda.Location = new System.Drawing.Point(23, 236);
+            this.btnAjuda.Location = new System.Drawing.Point(23, 302);
             this.btnAjuda.Name = "btnAjuda";
             this.btnAjuda.Size = new System.Drawing.Size(278, 48);
             this.btnAjuda.TabIndex = 2;
@@ -75,7 +76,7 @@
             // 
             this.btnSair.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnSair.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnSair.Location = new System.Drawing.Point(23, 347);
+            this.btnSair.Location = new System.Drawing.Point(23, 413);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(278, 48);
             this.btnSair.TabIndex = 3;
@@ -87,7 +88,7 @@
             // 
             this.lblAdmin.AutoSize = true;
             this.lblAdmin.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.lblAdmin.Location = new System.Drawing.Point(6, 429);
+            this.lblAdmin.Location = new System.Drawing.Point(6, 484);
             this.lblAdmin.Name = "lblAdmin";
             this.lblAdmin.Size = new System.Drawing.Size(137, 19);
             this.lblAdmin.Style = MetroFramework.MetroColorStyle.Pink;
@@ -95,11 +96,24 @@
             this.lblAdmin.Text = "Bem-vindo, admin.";
             this.lblAdmin.UseStyleColors = true;
             // 
+            // btnHistorico
+            // 
+            this.btnHistorico.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.btnHistorico.FontWeight = MetroFramework.MetroButtonWeight.Regular;
+            this.btnHistorico.Location = new System.Drawing.Point(23, 173);
+            this.btnHistorico.Name = "btnHistorico";
+            this.btnHistorico.Size = new System.Drawing.Size(278, 48);
+            this.btnHistorico.TabIndex = 5;
+            this.btnHistorico.Text = "HISTÓRICO DE VENDAS";
+            this.btnHistorico.UseSelectable = true;
+            this.btnHistorico.Click += new System.EventHandler(this.btnHistorico_Click);
+            // 
             // form_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 454);
+            this.ClientSize = new System.Drawing.Size(324, 512);
+            this.Controls.Add(this.btnHistorico);
             this.Controls.Add(this.lblAdmin);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnAjuda);
@@ -124,5 +138,6 @@
         private MetroFramework.Controls.MetroButton btnAjuda;
         private MetroFramework.Controls.MetroButton btnSair;
         private MetroFramework.Controls.MetroLabel lblAdmin;
+        private MetroFramework.Controls.MetroButton btnHistorico;
     }
 }

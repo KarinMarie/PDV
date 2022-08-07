@@ -35,6 +35,7 @@
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.btnLogar = new MetroFramework.Controls.MetroButton();
             this.lblAviso = new MetroFramework.Controls.MetroLabel();
+            this.chkMostrarSenha = new MetroFramework.Controls.MetroCheckBox();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -111,7 +112,6 @@
             this.txtSenha.Style = MetroFramework.MetroColorStyle.Pink;
             this.txtSenha.TabIndex = 3;
             this.txtSenha.UseSelectable = true;
-            this.txtSenha.UseSystemPasswordChar = true;
             this.txtSenha.WaterMark = "Insira sua senha";
             this.txtSenha.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtSenha.WaterMarkFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -130,7 +130,7 @@
             // 
             this.btnLogar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnLogar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnLogar.Location = new System.Drawing.Point(23, 245);
+            this.btnLogar.Location = new System.Drawing.Point(23, 276);
             this.btnLogar.Name = "btnLogar";
             this.btnLogar.Size = new System.Drawing.Size(195, 48);
             this.btnLogar.Style = MetroFramework.MetroColorStyle.Pink;
@@ -142,19 +142,32 @@
             // lblAviso
             // 
             this.lblAviso.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.lblAviso.Location = new System.Drawing.Point(23, 311);
+            this.lblAviso.Location = new System.Drawing.Point(23, 336);
             this.lblAviso.Name = "lblAviso";
             this.lblAviso.Size = new System.Drawing.Size(195, 49);
             this.lblAviso.Style = MetroFramework.MetroColorStyle.Red;
             this.lblAviso.TabIndex = 5;
             this.lblAviso.UseStyleColors = true;
             // 
+            // chkMostrarSenha
+            // 
+            this.chkMostrarSenha.AutoSize = true;
+            this.chkMostrarSenha.Location = new System.Drawing.Point(23, 223);
+            this.chkMostrarSenha.Name = "chkMostrarSenha";
+            this.chkMostrarSenha.Size = new System.Drawing.Size(98, 15);
+            this.chkMostrarSenha.Style = MetroFramework.MetroColorStyle.Pink;
+            this.chkMostrarSenha.TabIndex = 6;
+            this.chkMostrarSenha.Text = "Mostrar senha";
+            this.chkMostrarSenha.UseSelectable = true;
+            this.chkMostrarSenha.CheckedChanged += new System.EventHandler(this.chkMostrarSenha_CheckedChanged);
+            // 
             // form_login
             // 
             this.AcceptButton = this.btnLogar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(242, 373);
+            this.ClientSize = new System.Drawing.Size(242, 397);
+            this.Controls.Add(this.chkMostrarSenha);
             this.Controls.Add(this.lblAviso);
             this.Controls.Add(this.btnLogar);
             this.Controls.Add(this.txtSenha);
@@ -181,6 +194,7 @@
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroButton btnLogar;
         private MetroFramework.Controls.MetroLabel lblAviso;
+        private MetroFramework.Controls.MetroCheckBox chkMostrarSenha;
     }
 }
 

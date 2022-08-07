@@ -32,13 +32,14 @@
             this.btnVoltar = new MetroFramework.Controls.MetroButton();
             this.btnProdutos = new MetroFramework.Controls.MetroButton();
             this.btnFuncionarios = new MetroFramework.Controls.MetroButton();
+            this.btnAvancado = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // btnVoltar
             // 
             this.btnVoltar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnVoltar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnVoltar.Location = new System.Drawing.Point(23, 331);
+            this.btnVoltar.Location = new System.Drawing.Point(23, 356);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(278, 48);
             this.btnVoltar.TabIndex = 7;
@@ -50,7 +51,7 @@
             // 
             this.btnProdutos.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnProdutos.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnProdutos.Location = new System.Drawing.Point(23, 207);
+            this.btnProdutos.Location = new System.Drawing.Point(23, 179);
             this.btnProdutos.Name = "btnProdutos";
             this.btnProdutos.Size = new System.Drawing.Size(278, 48);
             this.btnProdutos.TabIndex = 5;
@@ -62,7 +63,7 @@
             // 
             this.btnFuncionarios.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnFuncionarios.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnFuncionarios.Location = new System.Drawing.Point(23, 144);
+            this.btnFuncionarios.Location = new System.Drawing.Point(23, 116);
             this.btnFuncionarios.Name = "btnFuncionarios";
             this.btnFuncionarios.Size = new System.Drawing.Size(278, 48);
             this.btnFuncionarios.TabIndex = 4;
@@ -70,11 +71,24 @@
             this.btnFuncionarios.UseSelectable = true;
             this.btnFuncionarios.Click += new System.EventHandler(this.btnFuncionarios_Click);
             // 
+            // btnAvancado
+            // 
+            this.btnAvancado.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.btnAvancado.FontWeight = MetroFramework.MetroButtonWeight.Regular;
+            this.btnAvancado.Location = new System.Drawing.Point(23, 244);
+            this.btnAvancado.Name = "btnAvancado";
+            this.btnAvancado.Size = new System.Drawing.Size(278, 48);
+            this.btnAvancado.TabIndex = 8;
+            this.btnAvancado.Text = "AVANÇADO";
+            this.btnAvancado.UseSelectable = true;
+            this.btnAvancado.Click += new System.EventHandler(this.btnAvancado_Click);
+            // 
             // form_gerenciar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(324, 454);
+            this.Controls.Add(this.btnAvancado);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnProdutos);
             this.Controls.Add(this.btnFuncionarios);
@@ -94,5 +108,6 @@
         private MetroFramework.Controls.MetroButton btnVoltar;
         private MetroFramework.Controls.MetroButton btnProdutos;
         private MetroFramework.Controls.MetroButton btnFuncionarios;
+        private MetroFramework.Controls.MetroButton btnAvancado;
     }
 }
