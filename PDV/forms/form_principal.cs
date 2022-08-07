@@ -57,5 +57,15 @@ namespace PDV.forms
                 Show();
             }
         }
+
+        private void btnAjuda_Click(object sender, EventArgs e)
+        {
+            using(form_ajuda ajuda = new form_ajuda())
+            {
+                Hide();
+                ajuda.ShowDialog();
+                Show();
+            }
+        }
     }
 }

@@ -68,7 +68,7 @@
             this.MaximizeBox = false;
             this.Name = "form_gerenciar_avancado";
             this.Resizable = false;
-            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
+            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.SystemShadow;
             this.Style = MetroFramework.MetroColorStyle.Pink;
             this.Text = "Avançado";
             this.ResumeLayout(false);

@@ -56,11 +56,14 @@ namespace PDV.forms
 
             foreach (DataRow row in tabela.Rows)
             {
-                string[] linha = { row["codigo_produto"].ToString(), row["nome_produto"].ToString(), row["preco_produto"].ToString(), row["estoque_produto"].ToString(), row["categoria_produto"].ToString() };
+                if ((int)row["estoque_produto"] > 0)
+                {
+                    string[] linha = { row["codigo_produto"].ToString(), row["nome_produto"].ToString(), row["preco_produto"].ToString(), row["estoque_produto"].ToString(), row["categoria_produto"].ToString() };
 
-                ListViewItem item = new ListViewItem(linha);
+                    ListViewItem item = new ListViewItem(linha);
 
-                view_produtos.Items.Add(item);
+                    view_produtos.Items.Add(item);
+                }
             }
         }
 
@@ -173,11 +176,13 @@ namespace PDV.forms
         private void btnConcluir_Click(object sender, EventArgs e)
         {
             vender();
+            atualizacoes_estoque.Clear();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             limpar_tudo();
+            atualizacoes_estoque.Clear();
         }
 
         private void btnImprimir_Click(object sender, EventArgs e)

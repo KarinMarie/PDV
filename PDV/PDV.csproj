@@ -72,6 +72,12 @@
   <ItemGroup>
     <Compile Include="classes\DataBaseManager.cs" />
     <Compile Include="classes\DataGridManager.cs" />
+    <Compile Include="forms\form_ajuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\form_ajuda.Designer.cs">
+      <DependentUpon>form_ajuda.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\form_gerenciar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms\form_ajuda.resx">
+      <DependentUpon>form_ajuda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\form_gerenciar.resx">
       <DependentUpon>form_gerenciar.cs</DependentUpon>
     </EmbeddedResource>

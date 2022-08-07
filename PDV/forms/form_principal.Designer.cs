@@ -71,6 +71,7 @@
             this.btnAjuda.TabIndex = 2;
             this.btnAjuda.Text = "AJUDA";
             this.btnAjuda.UseSelectable = true;
+            this.btnAjuda.Click += new System.EventHandler(this.btnAjuda_Click);
             // 
             // btnSair
             // 
