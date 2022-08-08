@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_vender));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnImprimir = new MetroFramework.Controls.MetroButton();
@@ -57,6 +58,8 @@
             this.btnCancelar = new MetroFramework.Controls.MetroButton();
             this.printDialog = new System.Windows.Forms.PrintDialog();
             this.printDocument = new System.Drawing.Printing.PrintDocument();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.txtHora = new MetroFramework.Controls.MetroLabel();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_total)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -67,6 +70,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.Controls.Add(this.btnImprimir);
             this.groupBox1.Controls.Add(this.txtNota);
             this.groupBox1.Controls.Add(this.txt_admin);
@@ -74,9 +78,9 @@
             this.groupBox1.Controls.Add(this.num_total);
             this.groupBox1.Controls.Add(this.metroLabel1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(533, 354);
+            this.groupBox1.Location = new System.Drawing.Point(542, 407);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(447, 358);
+            this.groupBox1.Size = new System.Drawing.Size(441, 358);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DETALHES";
@@ -86,9 +90,9 @@
             this.btnImprimir.Enabled = false;
             this.btnImprimir.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnImprimir.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnImprimir.Location = new System.Drawing.Point(6, 310);
+            this.btnImprimir.Location = new System.Drawing.Point(10, 310);
             this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(435, 39);
+            this.btnImprimir.Size = new System.Drawing.Size(421, 39);
             this.btnImprimir.Style = MetroFramework.MetroColorStyle.Pink;
             this.btnImprimir.TabIndex = 9;
             this.btnImprimir.Text = "IMPRIMIR NOTA";
@@ -101,7 +105,7 @@
             // 
             // 
             this.txtNota.CustomButton.Image = null;
-            this.txtNota.CustomButton.Location = new System.Drawing.Point(269, 1);
+            this.txtNota.CustomButton.Location = new System.Drawing.Point(255, 1);
             this.txtNota.CustomButton.Name = "";
             this.txtNota.CustomButton.Size = new System.Drawing.Size(165, 165);
             this.txtNota.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -112,7 +116,7 @@
             this.txtNota.FontSize = MetroFramework.MetroTextBoxSize.Tall;
             this.txtNota.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.txtNota.Lines = new string[0];
-            this.txtNota.Location = new System.Drawing.Point(6, 137);
+            this.txtNota.Location = new System.Drawing.Point(10, 137);
             this.txtNota.MaxLength = 32767;
             this.txtNota.Multiline = true;
             this.txtNota.Name = "txtNota";
@@ -123,7 +127,7 @@
             this.txtNota.SelectionLength = 0;
             this.txtNota.SelectionStart = 0;
             this.txtNota.ShortcutsEnabled = true;
-            this.txtNota.Size = new System.Drawing.Size(435, 167);
+            this.txtNota.Size = new System.Drawing.Size(421, 167);
             this.txtNota.Style = MetroFramework.MetroColorStyle.Pink;
             this.txtNota.TabIndex = 4;
             this.txtNota.UseSelectable = true;
@@ -203,10 +207,11 @@
             // 
             // btnConcluir
             // 
+            this.btnConcluir.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnConcluir.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.btnConcluir.Location = new System.Drawing.Point(539, 730);
+            this.btnConcluir.Location = new System.Drawing.Point(537, 791);
             this.btnConcluir.Name = "btnConcluir";
-            this.btnConcluir.Size = new System.Drawing.Size(441, 55);
+            this.btnConcluir.Size = new System.Drawing.Size(431, 55);
             this.btnConcluir.TabIndex = 2;
             this.btnConcluir.Text = "CONCLUIR VENDA";
             this.btnConcluir.UseSelectable = true;
@@ -214,6 +219,7 @@
             // 
             // view_produtos
             // 
+            this.view_produtos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.view_produtos.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.codigo_produto,
             this.nome_produto,
@@ -222,9 +228,9 @@
             this.categoria_produto});
             this.view_produtos.FullRowSelect = true;
             this.view_produtos.HideSelection = false;
-            this.view_produtos.Location = new System.Drawing.Point(23, 73);
+            this.view_produtos.Location = new System.Drawing.Point(23, 78);
             this.view_produtos.Name = "view_produtos";
-            this.view_produtos.Size = new System.Drawing.Size(498, 639);
+            this.view_produtos.Size = new System.Drawing.Size(498, 682);
             this.view_produtos.TabIndex = 3;
             this.view_produtos.UseCompatibleStateImageBehavior = false;
             this.view_produtos.View = System.Windows.Forms.View.Details;
@@ -256,9 +262,10 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnVoltar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnVoltar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnVoltar.Location = new System.Drawing.Point(23, 746);
+            this.btnVoltar.Location = new System.Drawing.Point(21, 807);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(101, 39);
             this.btnVoltar.Style = MetroFramework.MetroColorStyle.Pink;
@@ -269,6 +276,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox2.Controls.Add(this.numCodigoProduto);
             this.groupBox2.Controls.Add(this.metroLabel6);
             this.groupBox2.Controls.Add(this.btnAdicionarProdutos);
@@ -279,7 +287,7 @@
             this.groupBox2.Controls.Add(this.txtNomeProduto);
             this.groupBox2.Controls.Add(this.metroLabel4);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(533, 25);
+            this.groupBox2.Location = new System.Drawing.Point(542, 78);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(441, 312);
             this.groupBox2.TabIndex = 9;
@@ -431,9 +439,10 @@
             // 
             // btnCancelar
             // 
+            this.btnCancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCancelar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnCancelar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnCancelar.Location = new System.Drawing.Point(315, 730);
+            this.btnCancelar.Location = new System.Drawing.Point(315, 791);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(206, 55);
             this.btnCancelar.TabIndex = 10;
@@ -449,11 +458,30 @@
             // 
             this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument_PrintPage);
             // 
+            // timer
+            // 
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // txtHora
+            // 
+            this.txtHora.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtHora.AutoSize = true;
+            this.txtHora.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.txtHora.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.txtHora.Location = new System.Drawing.Point(439, 31);
+            this.txtHora.Name = "txtHora";
+            this.txtHora.Size = new System.Drawing.Size(82, 25);
+            this.txtHora.Style = MetroFramework.MetroColorStyle.Pink;
+            this.txtHora.TabIndex = 11;
+            this.txtHora.Text = "00:00:00";
+            this.txtHora.UseStyleColors = true;
+            // 
             // form_vender
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(987, 799);
+            this.ClientSize = new System.Drawing.Size(1006, 869);
+            this.Controls.Add(this.txtHora);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnVoltar);
@@ -476,6 +504,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numQuantidadeProduto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numPrecoProduto)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -508,5 +537,7 @@
         private MetroFramework.Controls.MetroButton btnImprimir;
         private System.Windows.Forms.PrintDialog printDialog;
         private System.Drawing.Printing.PrintDocument printDocument;
+        private System.Windows.Forms.Timer timer;
+        private MetroFramework.Controls.MetroLabel txtHora;
     }
 }

@@ -29,6 +29,10 @@ namespace PDV.forms
             num_total.Controls.RemoveAt(0);
 
             txtNota.Text = " - - - LISTA DE COMPRAS - - - \r\n\r\n";
+
+            timer.Interval = 1000;
+            timer.Enabled = true;
+            txtHora.Text = DateTime.Now.ToString("HH:mm:ss");
         }
 
         private void limpar_tudo()
@@ -199,6 +203,11 @@ namespace PDV.forms
         private void printDocument_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             e.Graphics.DrawString(txtNota.Text, txtNota.Font, Brushes.Black, 100, 100);
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            txtHora.Text = DateTime.Now.ToString("HH:mm:ss");
         }
     }
 }

@@ -41,10 +41,30 @@ namespace PDV.forms
         {
             switch(cbProblema.Text)
             {
-                case "REALIZAR UMA VENDA":
+                case "CADASTRAR UM FUNCIONÁRIO":
                     carregar_problema(0);
                     break;
 
+                case "EXCLUIR UM FUNCIONÁRIO":
+                    carregar_problema(1);
+                    break;
+
+                case "CADASTRAR UM PRODUTO":
+                    carregar_problema(2);
+                    break;
+
+                case "EXCLUIR UM PRODUTO":
+                    carregar_problema(3);
+                    break;
+                case "ATUALIZAR ESTOQUE":
+                    carregar_problema(4);
+                    break;
+                case "FILTRAR PRODUTOS":
+                    carregar_problema(5);
+                    break;
+                case "REALIZAR VENDAS":
+                    carregar_problema(6);
+                    break;
             }
         }
 

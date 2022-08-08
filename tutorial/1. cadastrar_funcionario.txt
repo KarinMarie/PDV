@@ -1,0 +1,13 @@
+1. Faça o log-in padrão, se ainda não tiver um cadastro personalizado:
+ - usuário: admin
+ - senha: 123456
+
+Você pode excluir esse cadastro depois, se desejar.
+
+2. Clique em "GERENCIAMENTO";
+
+3. Clique em "GERENCIAR FUNCIONÁRIOS";
+
+4. Preencha o usuário e a senha do novo funcionário no campo "ADICIONAR FUNCIONÁRIO" e clique em "ADICIONAR";
+
+5. O novo cadastro já está pronto para o uso!
