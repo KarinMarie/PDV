@@ -15,7 +15,7 @@ Project of a system which manages a store, its products and its employees.
 
 ![image](https://user-images.githubusercontent.com/93265472/183269842-147ed092-1ddf-4274-aaa0-91cf611738b0.png)
 
-![image](https://user-images.githubusercontent.com/93265472/183111002-73ba33af-ed44-4f5d-8bc1-ef102e689dbb.png)
+![image](https://user-images.githubusercontent.com/93265472/183522088-3aebdcd3-1710-4fa3-b80f-a3c4910be007.png)
 
 ![image](https://user-images.githubusercontent.com/93265472/183303143-ec3fe2fc-0958-4a5c-87c6-02e74af13fa8.png)
 
