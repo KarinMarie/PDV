@@ -209,9 +209,9 @@
             // 
             this.btnConcluir.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnConcluir.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.btnConcluir.Location = new System.Drawing.Point(537, 791);
+            this.btnConcluir.Location = new System.Drawing.Point(542, 791);
             this.btnConcluir.Name = "btnConcluir";
-            this.btnConcluir.Size = new System.Drawing.Size(431, 55);
+            this.btnConcluir.Size = new System.Drawing.Size(441, 55);
             this.btnConcluir.TabIndex = 2;
             this.btnConcluir.Text = "CONCLUIR VENDA";
             this.btnConcluir.UseSelectable = true;

@@ -35,17 +35,17 @@
             this.usuario_admin = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnVoltar = new MetroFramework.Controls.MetroButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnLimparFiltro = new MetroFramework.Controls.MetroButton();
+            this.numAno = new System.Windows.Forms.NumericUpDown();
+            this.cbMes = new MetroFramework.Controls.MetroComboBox();
+            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.btnFiltrar = new MetroFramework.Controls.MetroButton();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
-            this.cbMes = new MetroFramework.Controls.MetroComboBox();
-            this.numAno = new System.Windows.Forms.NumericUpDown();
             this.txtFuncionario = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.numGanhos = new System.Windows.Forms.NumericUpDown();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.btnLimparFiltro = new MetroFramework.Controls.MetroButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numAno)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numGanhos)).BeginInit();
@@ -110,40 +110,31 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "FILTRAR";
             // 
-            // btnFiltrar
+            // btnLimparFiltro
             // 
-            this.btnFiltrar.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.btnFiltrar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnFiltrar.Location = new System.Drawing.Point(14, 164);
-            this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(240, 42);
-            this.btnFiltrar.Style = MetroFramework.MetroColorStyle.Pink;
-            this.btnFiltrar.TabIndex = 7;
-            this.btnFiltrar.Text = "FILTRAR";
-            this.btnFiltrar.UseSelectable = true;
-            this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
+            this.btnLimparFiltro.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.btnLimparFiltro.FontWeight = MetroFramework.MetroButtonWeight.Regular;
+            this.btnLimparFiltro.Location = new System.Drawing.Point(14, 222);
+            this.btnLimparFiltro.Name = "btnLimparFiltro";
+            this.btnLimparFiltro.Size = new System.Drawing.Size(240, 42);
+            this.btnLimparFiltro.Style = MetroFramework.MetroColorStyle.Pink;
+            this.btnLimparFiltro.TabIndex = 13;
+            this.btnLimparFiltro.Text = "LIMPAR FILTRO";
+            this.btnLimparFiltro.UseSelectable = true;
+            this.btnLimparFiltro.Click += new System.EventHandler(this.btnLimparFiltro_Click);
             // 
-            // metroLabel1
+            // numAno
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel1.Location = new System.Drawing.Point(6, 45);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(45, 25);
-            this.metroLabel1.TabIndex = 0;
-            this.metroLabel1.Text = "Mês";
-            // 
-            // metroLabel5
-            // 
-            this.metroLabel5.AutoSize = true;
-            this.metroLabel5.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel5.Location = new System.Drawing.Point(8, 86);
-            this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(45, 25);
-            this.metroLabel5.TabIndex = 11;
-            this.metroLabel5.Text = "Ano";
+            this.numAno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numAno.Location = new System.Drawing.Point(57, 86);
+            this.numAno.Maximum = new decimal(new int[] {
+            3000,
+            0,
+            0,
+            0});
+            this.numAno.Name = "numAno";
+            this.numAno.Size = new System.Drawing.Size(120, 26);
+            this.numAno.TabIndex = 12;
             // 
             // cbMes
             // 
@@ -170,18 +161,40 @@
             this.cbMes.TabIndex = 10;
             this.cbMes.UseSelectable = true;
             // 
-            // numAno
+            // metroLabel5
             // 
-            this.numAno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numAno.Location = new System.Drawing.Point(57, 86);
-            this.numAno.Maximum = new decimal(new int[] {
-            3000,
-            0,
-            0,
-            0});
-            this.numAno.Name = "numAno";
-            this.numAno.Size = new System.Drawing.Size(120, 26);
-            this.numAno.TabIndex = 12;
+            this.metroLabel5.AutoSize = true;
+            this.metroLabel5.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel5.Location = new System.Drawing.Point(8, 86);
+            this.metroLabel5.Name = "metroLabel5";
+            this.metroLabel5.Size = new System.Drawing.Size(45, 25);
+            this.metroLabel5.TabIndex = 11;
+            this.metroLabel5.Text = "Ano";
+            // 
+            // btnFiltrar
+            // 
+            this.btnFiltrar.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.btnFiltrar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
+            this.btnFiltrar.Location = new System.Drawing.Point(14, 164);
+            this.btnFiltrar.Name = "btnFiltrar";
+            this.btnFiltrar.Size = new System.Drawing.Size(240, 42);
+            this.btnFiltrar.Style = MetroFramework.MetroColorStyle.Pink;
+            this.btnFiltrar.TabIndex = 7;
+            this.btnFiltrar.Text = "FILTRAR";
+            this.btnFiltrar.UseSelectable = true;
+            this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel1.Location = new System.Drawing.Point(6, 45);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(45, 25);
+            this.metroLabel1.TabIndex = 0;
+            this.metroLabel1.Text = "Mês";
             // 
             // txtFuncionario
             // 
@@ -266,24 +279,11 @@
             this.metroLabel2.TabIndex = 15;
             this.metroLabel2.Text = "Funcionário que mais vendeu:";
             // 
-            // btnLimparFiltro
-            // 
-            this.btnLimparFiltro.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.btnLimparFiltro.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnLimparFiltro.Location = new System.Drawing.Point(14, 222);
-            this.btnLimparFiltro.Name = "btnLimparFiltro";
-            this.btnLimparFiltro.Size = new System.Drawing.Size(240, 42);
-            this.btnLimparFiltro.Style = MetroFramework.MetroColorStyle.Pink;
-            this.btnLimparFiltro.TabIndex = 13;
-            this.btnLimparFiltro.Text = "LIMPAR FILTRO";
-            this.btnLimparFiltro.UseSelectable = true;
-            this.btnLimparFiltro.Click += new System.EventHandler(this.btnLimparFiltro_Click);
-            // 
             // form_historico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(707, 650);
+            this.ClientSize = new System.Drawing.Size(712, 650);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnVoltar);

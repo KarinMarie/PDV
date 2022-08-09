@@ -94,11 +94,14 @@ namespace PDV.forms
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
             adicionar_funcionario();
+            txtUsuarioAdicionar.Text = "";
+            txtSenhaAdicionar.Text = "";
         }
 
         private void btnRemover_Click(object sender, EventArgs e)
         {
             remover_funcionario();
+            txtUsuarioRemover.Text = "";
         }
     }
 }

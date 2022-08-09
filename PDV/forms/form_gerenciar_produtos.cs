@@ -143,21 +143,29 @@ namespace PDV.forms
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
             adicionar_produto();
+            txtNome.Text = "";
+            num_preco.Value = 0;
+            num_estoque.Value = 0;
+            cb_categoria.SelectedIndex = -1;
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
             excluir_produto();
+            num_cod.Value = 0;
         }
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
             atualizar_estoque();
+            numCodigoEstoque.Value = 0;
+            numNovoEstoque.Value = 0;
         }
 
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
             filtrar_produtos();
+            cbFiltrarCategoria.SelectedIndex = -1;
         }
 
         private void btnRemoverFiltros_Click(object sender, EventArgs e)
