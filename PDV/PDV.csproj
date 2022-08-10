@@ -71,7 +71,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classes\DataBaseManager.cs" />
-    <Compile Include="classes\DataGridManager.cs" />
     <Compile Include="forms\form_ajuda.cs">
       <SubType>Form</SubType>
     </Compile>

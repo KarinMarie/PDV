@@ -15,6 +15,10 @@ namespace PDV.forms
     {
         DataBaseManager gerenciador = new DataBaseManager("banco");
 
+        bool sucesso_adicao;
+        bool sucesso_atualizacao;
+        bool sucesso_exclusao;
+
         public form_gerenciar_produtos()
         {
             InitializeComponent();
@@ -53,6 +57,7 @@ namespace PDV.forms
 
             if(confirmacao == 1)
             {
+                sucesso_adicao = true;
                 MessageBox.Show("Produto adicionado com êxito!", "Inserção de produto", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_produtos();
             }
@@ -76,6 +81,7 @@ namespace PDV.forms
 
             if (confirmacao == 1)
             {
+                sucesso_exclusao = true;
                 MessageBox.Show("Produto deletado com êxito!", "Deletar produto", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_produtos();
             }
@@ -100,6 +106,7 @@ namespace PDV.forms
 
             if (confirmacao == 1)
             {
+                sucesso_atualizacao = true;
                 MessageBox.Show("Estoque atualizado com êxito!", "Atualizar estoque", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_produtos();
             }
@@ -143,23 +150,33 @@ namespace PDV.forms
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
             adicionar_produto();
-            txtNome.Text = "";
-            num_preco.Value = 0;
-            num_estoque.Value = 0;
-            cb_categoria.SelectedIndex = -1;
+            
+            if(sucesso_adicao)
+            {
+                txtNome.Text = "";
+                num_preco.Value = 0;
+                num_estoque.Value = 0;
+                cb_categoria.SelectedIndex = -1;
+            } 
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
             excluir_produto();
-            num_cod.Value = 0;
+
+            if (sucesso_exclusao)
+                num_cod.Value = 0;
         }
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
             atualizar_estoque();
-            numCodigoEstoque.Value = 0;
-            numNovoEstoque.Value = 0;
+
+            if (sucesso_atualizacao)
+            {
+                numCodigoEstoque.Value = 0;
+                numNovoEstoque.Value = 0;
+            }
         }
 
         private void btnFiltrar_Click(object sender, EventArgs e)

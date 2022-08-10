@@ -15,6 +15,9 @@ namespace PDV.forms
     {
         DataBaseManager gerenciador = new DataBaseManager("banco");
 
+        bool sucesso_adicionar;
+        bool sucesso_remover;
+
         public form_gerenciar_funcionarios()
         {
             InitializeComponent();
@@ -51,6 +54,7 @@ namespace PDV.forms
 
             if (confirmacao == 1)
             {
+                sucesso_adicionar = true;
                 MessageBox.Show("Funcionário adicionado com êxito!", "Adicionar funcionário", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_funcionarios();
             }
@@ -74,7 +78,8 @@ namespace PDV.forms
 
             if (confirmacao == 1)
             {
-                MessageBox.Show("Funcionário removido com êxito!", "Deletar produto", MessageBoxButtons.OK, MessageBoxIcon.None);
+                sucesso_remover = true;
+                MessageBox.Show("Funcionário removido com êxito!", "Remover funcionário", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_funcionarios();
             }
             else
@@ -94,14 +99,20 @@ namespace PDV.forms
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
             adicionar_funcionario();
-            txtUsuarioAdicionar.Text = "";
-            txtSenhaAdicionar.Text = "";
+
+            if(sucesso_adicionar)
+            {
+                txtUsuarioAdicionar.Text = "";
+                txtSenhaAdicionar.Text = "";
+            }        
         }
 
         private void btnRemover_Click(object sender, EventArgs e)
         {
             remover_funcionario();
-            txtUsuarioRemover.Text = "";
+
+            if(sucesso_remover)
+                txtUsuarioRemover.Text = "";      
         }
     }
 }
