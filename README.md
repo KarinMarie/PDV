@@ -1,4 +1,7 @@
 # PDV - IN CONSTRUCTION
+
+	|||   LATEST RELEASE: v1.0-beta   |||
+
 Project of a system which manages a store, its products and its employees.
 
 ![image](https://user-images.githubusercontent.com/93265472/183269809-2b4cc3a6-7a9d-4940-a780-d4ea8535d38d.png)
