@@ -1,9 +1,0 @@
-1. Faça log-in;
-
-2. Clique em "GERENCIAMENTO";
-
-3. Clique em "GERENCIAR PRODUTOS";
-
-4. Na seção "FILTRAR POR CATEGORIA", selecione a categoria do produto e clique em "FILTRAR". Todos os produtos da categoria selecionada aparecerão na lista à esquerda;
-
-5. Caso deseje ver novamente a lista de todos os produtos, clique em "REMOVER FILTROS".

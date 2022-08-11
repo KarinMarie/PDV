@@ -1,7 +1,0 @@
-1. Faça log-in;
-
-2. Clique em "GERENCIAMENTO";
-
-3. Clique em "GERENCIAR PRODUTOS";
-
-4. Na seção de "ADICIONAR PRODUTO", informe todos os dados exigidos (nome, preço, estoque e categoria) e clique em "ADICIONAR".

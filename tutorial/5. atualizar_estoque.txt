@@ -1,7 +1,0 @@
-1. Faça log-in;
-
-2. Clique em "GERENCIAMENTO";
-
-3. Clique em "GERENCIAR PRODUTOS";
-
-4. Na seção "ATUALIZAR ESTOQUE", insira o código do produto (disponível na lista de produtos à esquerda) e o novo estoque disponível. Após isso, clique em "ATUALIZAR".
