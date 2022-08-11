@@ -267,6 +267,7 @@
             this.groupBox2.Size = new System.Drawing.Size(267, 207);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "BALANÇO DO MÊS";
             // 
             // metroLabel2
             // 

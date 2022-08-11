@@ -22,11 +22,11 @@ namespace PDV.forms
         {
             InitializeComponent();
 
-            txt_admin.Text = admin;
+            txtAdmin.Text = admin;
 
             numCodigoProduto.Controls.RemoveAt(0);
             numPrecoProduto.Controls.RemoveAt(0);
-            num_total.Controls.RemoveAt(0);
+            numTotal.Controls.RemoveAt(0);
 
             txtNota.Text = " - - - LISTA DE COMPRAS - - - \r\n\r\n";
 
@@ -41,7 +41,7 @@ namespace PDV.forms
             txtNomeProduto.Text = "";
             numPrecoProduto.Value = 0;
             numQuantidadeProduto.Value = 1;
-            num_total.Value = 0;
+            numTotal.Value = 0;
             ultimo_index_selecionado = -1;
             preco_total_compra = 0;
             txtNota.Text = " - - - LISTA DE COMPRAS - - - \r\n\r\n";
@@ -101,7 +101,7 @@ namespace PDV.forms
             if (numCodigoProduto.Value == 0 || numPrecoProduto.Value == 0 || string.IsNullOrEmpty(txtNomeProduto.Text))
                 return;
 
-            num_total.Value += preco * quantidade;
+            numTotal.Value += preco * quantidade;
             txtNota.Text += $"\r\n{quantidade} - {nome} - R$ {preco * quantidade}";
 
             string consulta = $"UPDATE Produto SET estoque_produto = estoque_produto - {quantidade} WHERE codigo_produto = {codigo}";
@@ -116,8 +116,8 @@ namespace PDV.forms
         private void vender()
         {
             DateTime data_venda = DateTime.Now;
-            decimal preco_total_venda = num_total.Value;
-            string usuario_admin = txt_admin.Text;
+            decimal preco_total_venda = numTotal.Value;
+            string usuario_admin = txtAdmin.Text;
 
             string adiciona_venda = $"INSERT INTO Venda VALUES('{data_venda}', {preco_total_venda}, '{usuario_admin}')";
             string atualiza_admin = $"UPDATE Admin SET numero_vendas_admin = numero_vendas_admin + 1, ganho_vendas_admin = ganho_vendas_admin + {preco_total_venda} WHERE usuario_admin = '{usuario_admin}'";

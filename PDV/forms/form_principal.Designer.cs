@@ -126,7 +126,7 @@
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
             this.Style = MetroFramework.MetroColorStyle.Pink;
-            this.Text = "Ponto de Venda";
+            this.Text = "Ponto de venda";
             this.ResumeLayout(false);
             this.PerformLayout();
 

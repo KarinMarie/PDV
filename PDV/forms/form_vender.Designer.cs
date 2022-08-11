@@ -33,9 +33,9 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnImprimir = new MetroFramework.Controls.MetroButton();
             this.txtNota = new MetroFramework.Controls.MetroTextBox();
-            this.txt_admin = new MetroFramework.Controls.MetroTextBox();
+            this.txtAdmin = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.num_total = new System.Windows.Forms.NumericUpDown();
+            this.numTotal = new System.Windows.Forms.NumericUpDown();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.btnConcluir = new MetroFramework.Controls.MetroButton();
             this.view_produtos = new System.Windows.Forms.ListView();
@@ -61,7 +61,7 @@
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.txtHora = new MetroFramework.Controls.MetroLabel();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.num_total)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numTotal)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numCodigoProduto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numQuantidadeProduto)).BeginInit();
@@ -73,9 +73,9 @@
             this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.Controls.Add(this.btnImprimir);
             this.groupBox1.Controls.Add(this.txtNota);
-            this.groupBox1.Controls.Add(this.txt_admin);
+            this.groupBox1.Controls.Add(this.txtAdmin);
             this.groupBox1.Controls.Add(this.metroLabel2);
-            this.groupBox1.Controls.Add(this.num_total);
+            this.groupBox1.Controls.Add(this.numTotal);
             this.groupBox1.Controls.Add(this.metroLabel1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(542, 407);
@@ -134,39 +134,39 @@
             this.txtNota.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtNota.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // txt_admin
+            // txtAdmin
             // 
             // 
             // 
             // 
-            this.txt_admin.CustomButton.Image = null;
-            this.txt_admin.CustomButton.Location = new System.Drawing.Point(159, 1);
-            this.txt_admin.CustomButton.Name = "";
-            this.txt_admin.CustomButton.Size = new System.Drawing.Size(29, 29);
-            this.txt_admin.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txt_admin.CustomButton.TabIndex = 1;
-            this.txt_admin.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txt_admin.CustomButton.UseSelectable = true;
-            this.txt_admin.CustomButton.Visible = false;
-            this.txt_admin.FontSize = MetroFramework.MetroTextBoxSize.Tall;
-            this.txt_admin.Lines = new string[0];
-            this.txt_admin.Location = new System.Drawing.Point(152, 82);
-            this.txt_admin.MaxLength = 32767;
-            this.txt_admin.Multiline = true;
-            this.txt_admin.Name = "txt_admin";
-            this.txt_admin.PasswordChar = '\0';
-            this.txt_admin.ReadOnly = true;
-            this.txt_admin.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_admin.SelectedText = "";
-            this.txt_admin.SelectionLength = 0;
-            this.txt_admin.SelectionStart = 0;
-            this.txt_admin.ShortcutsEnabled = true;
-            this.txt_admin.Size = new System.Drawing.Size(189, 31);
-            this.txt_admin.Style = MetroFramework.MetroColorStyle.Pink;
-            this.txt_admin.TabIndex = 3;
-            this.txt_admin.UseSelectable = true;
-            this.txt_admin.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txt_admin.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtAdmin.CustomButton.Image = null;
+            this.txtAdmin.CustomButton.Location = new System.Drawing.Point(159, 1);
+            this.txtAdmin.CustomButton.Name = "";
+            this.txtAdmin.CustomButton.Size = new System.Drawing.Size(29, 29);
+            this.txtAdmin.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtAdmin.CustomButton.TabIndex = 1;
+            this.txtAdmin.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtAdmin.CustomButton.UseSelectable = true;
+            this.txtAdmin.CustomButton.Visible = false;
+            this.txtAdmin.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.txtAdmin.Lines = new string[0];
+            this.txtAdmin.Location = new System.Drawing.Point(152, 82);
+            this.txtAdmin.MaxLength = 32767;
+            this.txtAdmin.Multiline = true;
+            this.txtAdmin.Name = "txtAdmin";
+            this.txtAdmin.PasswordChar = '\0';
+            this.txtAdmin.ReadOnly = true;
+            this.txtAdmin.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtAdmin.SelectedText = "";
+            this.txtAdmin.SelectionLength = 0;
+            this.txtAdmin.SelectionStart = 0;
+            this.txtAdmin.ShortcutsEnabled = true;
+            this.txtAdmin.Size = new System.Drawing.Size(189, 31);
+            this.txtAdmin.Style = MetroFramework.MetroColorStyle.Pink;
+            this.txtAdmin.TabIndex = 3;
+            this.txtAdmin.UseSelectable = true;
+            this.txtAdmin.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtAdmin.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // metroLabel2
             // 
@@ -179,20 +179,20 @@
             this.metroLabel2.TabIndex = 2;
             this.metroLabel2.Text = "Administrador:";
             // 
-            // num_total
+            // numTotal
             // 
-            this.num_total.DecimalPlaces = 2;
-            this.num_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num_total.Location = new System.Drawing.Point(165, 35);
-            this.num_total.Maximum = new decimal(new int[] {
+            this.numTotal.DecimalPlaces = 2;
+            this.numTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numTotal.Location = new System.Drawing.Point(165, 35);
+            this.numTotal.Maximum = new decimal(new int[] {
             10000000,
             0,
             0,
             0});
-            this.num_total.Name = "num_total";
-            this.num_total.ReadOnly = true;
-            this.num_total.Size = new System.Drawing.Size(176, 31);
-            this.num_total.TabIndex = 1;
+            this.numTotal.Name = "numTotal";
+            this.numTotal.ReadOnly = true;
+            this.numTotal.Size = new System.Drawing.Size(176, 31);
+            this.numTotal.TabIndex = 1;
             // 
             // metroLabel1
             // 
@@ -493,11 +493,11 @@
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
             this.Style = MetroFramework.MetroColorStyle.Pink;
-            this.Text = "Efetuar Vendas";
+            this.Text = "Efetuar vendas";
             this.Load += new System.EventHandler(this.form_vender_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.num_total)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numTotal)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numCodigoProduto)).EndInit();
@@ -513,9 +513,9 @@
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroButton btnConcluir;
         private MetroFramework.Controls.MetroTextBox txtNota;
-        private MetroFramework.Controls.MetroTextBox txt_admin;
+        private MetroFramework.Controls.MetroTextBox txtAdmin;
         private MetroFramework.Controls.MetroLabel metroLabel2;
-        private System.Windows.Forms.NumericUpDown num_total;
+        private System.Windows.Forms.NumericUpDown numTotal;
         private System.Windows.Forms.ListView view_produtos;
         private MetroFramework.Controls.MetroButton btnVoltar;
         private System.Windows.Forms.ColumnHeader codigo_produto;

@@ -37,17 +37,17 @@
             this.estoque_produto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.categoria_produto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.num_estoque = new System.Windows.Forms.NumericUpDown();
+            this.numEstoque = new System.Windows.Forms.NumericUpDown();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.btnAdicionar = new MetroFramework.Controls.MetroButton();
-            this.cb_categoria = new MetroFramework.Controls.MetroComboBox();
+            this.cbCategoria = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.num_preco = new System.Windows.Forms.NumericUpDown();
+            this.numPreco = new System.Windows.Forms.NumericUpDown();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.txtNome = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.num_cod = new System.Windows.Forms.NumericUpDown();
+            this.numCod = new System.Windows.Forms.NumericUpDown();
             this.btnExcluir = new MetroFramework.Controls.MetroButton();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.btnAtualizar = new MetroFramework.Controls.MetroButton();
@@ -63,10 +63,10 @@
             this.btnFiltrar = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.num_estoque)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.num_preco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numEstoque)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPreco)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.num_cod)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numCod)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numNovoEstoque)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCodigoEstoque)).BeginInit();
@@ -136,12 +136,12 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.num_estoque);
+            this.groupBox1.Controls.Add(this.numEstoque);
             this.groupBox1.Controls.Add(this.metroLabel4);
             this.groupBox1.Controls.Add(this.btnAdicionar);
-            this.groupBox1.Controls.Add(this.cb_categoria);
+            this.groupBox1.Controls.Add(this.cbCategoria);
             this.groupBox1.Controls.Add(this.metroLabel3);
-            this.groupBox1.Controls.Add(this.num_preco);
+            this.groupBox1.Controls.Add(this.numPreco);
             this.groupBox1.Controls.Add(this.metroLabel2);
             this.groupBox1.Controls.Add(this.txtNome);
             this.groupBox1.Controls.Add(this.metroLabel1);
@@ -153,18 +153,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ADICIONAR PRODUTO";
             // 
-            // num_estoque
+            // numEstoque
             // 
-            this.num_estoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num_estoque.Location = new System.Drawing.Point(87, 159);
-            this.num_estoque.Maximum = new decimal(new int[] {
+            this.numEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numEstoque.Location = new System.Drawing.Point(87, 159);
+            this.numEstoque.Maximum = new decimal(new int[] {
             10000000,
             0,
             0,
             0});
-            this.num_estoque.Name = "num_estoque";
-            this.num_estoque.Size = new System.Drawing.Size(155, 26);
-            this.num_estoque.TabIndex = 9;
+            this.numEstoque.Name = "numEstoque";
+            this.numEstoque.Size = new System.Drawing.Size(155, 26);
+            this.numEstoque.TabIndex = 9;
             // 
             // metroLabel4
             // 
@@ -190,24 +190,24 @@
             this.btnAdicionar.UseSelectable = true;
             this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
-            // cb_categoria
+            // cbCategoria
             // 
-            this.cb_categoria.FontSize = MetroFramework.MetroComboBoxSize.Tall;
-            this.cb_categoria.FormattingEnabled = true;
-            this.cb_categoria.ItemHeight = 29;
-            this.cb_categoria.Items.AddRange(new object[] {
+            this.cbCategoria.FontSize = MetroFramework.MetroComboBoxSize.Tall;
+            this.cbCategoria.FormattingEnabled = true;
+            this.cbCategoria.ItemHeight = 29;
+            this.cbCategoria.Items.AddRange(new object[] {
             "SORVETE",
             "PICOLÉ",
             "BEBIDA",
             "DOCE",
             "OUTROS"});
-            this.cb_categoria.Location = new System.Drawing.Point(104, 201);
-            this.cb_categoria.Name = "cb_categoria";
-            this.cb_categoria.Size = new System.Drawing.Size(138, 35);
-            this.cb_categoria.Style = MetroFramework.MetroColorStyle.Pink;
-            this.cb_categoria.TabIndex = 6;
-            this.cb_categoria.UseSelectable = true;
-            this.cb_categoria.SelectedIndexChanged += new System.EventHandler(this.cb_categoria_SelectedIndexChanged);
+            this.cbCategoria.Location = new System.Drawing.Point(104, 201);
+            this.cbCategoria.Name = "cbCategoria";
+            this.cbCategoria.Size = new System.Drawing.Size(138, 35);
+            this.cbCategoria.Style = MetroFramework.MetroColorStyle.Pink;
+            this.cbCategoria.TabIndex = 6;
+            this.cbCategoria.UseSelectable = true;
+            this.cbCategoria.SelectedIndexChanged += new System.EventHandler(this.cb_categoria_SelectedIndexChanged);
             // 
             // metroLabel3
             // 
@@ -220,19 +220,19 @@
             this.metroLabel3.TabIndex = 5;
             this.metroLabel3.Text = "Categoria:";
             // 
-            // num_preco
+            // numPreco
             // 
-            this.num_preco.DecimalPlaces = 2;
-            this.num_preco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num_preco.Location = new System.Drawing.Point(104, 107);
-            this.num_preco.Maximum = new decimal(new int[] {
+            this.numPreco.DecimalPlaces = 2;
+            this.numPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numPreco.Location = new System.Drawing.Point(104, 107);
+            this.numPreco.Maximum = new decimal(new int[] {
             10000000,
             0,
             0,
             0});
-            this.num_preco.Name = "num_preco";
-            this.num_preco.Size = new System.Drawing.Size(138, 26);
-            this.num_preco.TabIndex = 4;
+            this.numPreco.Name = "numPreco";
+            this.numPreco.Size = new System.Drawing.Size(138, 26);
+            this.numPreco.TabIndex = 4;
             // 
             // metroLabel2
             // 
@@ -291,7 +291,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.num_cod);
+            this.groupBox2.Controls.Add(this.numCod);
             this.groupBox2.Controls.Add(this.btnExcluir);
             this.groupBox2.Controls.Add(this.metroLabel5);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -302,18 +302,18 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "EXCLUIR PRODUTO";
             // 
-            // num_cod
+            // numCod
             // 
-            this.num_cod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num_cod.Location = new System.Drawing.Point(87, 41);
-            this.num_cod.Maximum = new decimal(new int[] {
+            this.numCod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numCod.Location = new System.Drawing.Point(87, 41);
+            this.numCod.Maximum = new decimal(new int[] {
             10000000,
             0,
             0,
             0});
-            this.num_cod.Name = "num_cod";
-            this.num_cod.Size = new System.Drawing.Size(138, 26);
-            this.num_cod.TabIndex = 4;
+            this.numCod.Name = "numCod";
+            this.numCod.Size = new System.Drawing.Size(138, 26);
+            this.numCod.TabIndex = 4;
             // 
             // btnExcluir
             // 
@@ -502,16 +502,16 @@
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
             this.Style = MetroFramework.MetroColorStyle.Pink;
-            this.Text = "Gerenciar Produtos";
+            this.Text = "Gerenciar produtos";
             this.Load += new System.EventHandler(this.form_gerenciar_produtos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.num_estoque)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.num_preco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numEstoque)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPreco)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.num_cod)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numCod)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numNovoEstoque)).EndInit();
@@ -527,9 +527,9 @@
         private MetroFramework.Controls.MetroButton btnVoltar;
         private System.Windows.Forms.DataGridView dataGrid;
         private System.Windows.Forms.GroupBox groupBox1;
-        private MetroFramework.Controls.MetroComboBox cb_categoria;
+        private MetroFramework.Controls.MetroComboBox cbCategoria;
         private MetroFramework.Controls.MetroLabel metroLabel3;
-        private System.Windows.Forms.NumericUpDown num_preco;
+        private System.Windows.Forms.NumericUpDown numPreco;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroTextBox txtNome;
         private MetroFramework.Controls.MetroLabel metroLabel1;
@@ -541,9 +541,9 @@
         private MetroFramework.Controls.MetroButton btnAdicionar;
         private System.Windows.Forms.GroupBox groupBox2;
         private MetroFramework.Controls.MetroButton btnAtualizar;
-        private System.Windows.Forms.NumericUpDown num_cod;
+        private System.Windows.Forms.NumericUpDown numCod;
         private MetroFramework.Controls.MetroLabel metroLabel5;
-        private System.Windows.Forms.NumericUpDown num_estoque;
+        private System.Windows.Forms.NumericUpDown numEstoque;
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroButton btnExcluir;
         private System.Windows.Forms.GroupBox groupBox3;

@@ -13,7 +13,7 @@ namespace PDV.forms
 {
     public partial class form_ajuda : MetroFramework.Forms.MetroForm
     {
-        string path = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..\..\..\", @"tutorial\"));
+        string path = AppDomain.CurrentDomain.BaseDirectory + @"tutorial\";
 
         public form_ajuda()
         {

@@ -157,12 +157,21 @@ namespace PDV.forms
             }
 
             string consulta_ganhos = $"SELECT SUM(preco_total_venda) FROM Venda WHERE CONVERT(VARCHAR(25), data_venda, 126) LIKE '{data}'";
-
             DataTable tabela_ganhos = gerenciador.ConsultarBanco(consulta_ganhos);
 
+            string consulta_mais_vendeu = $"SELECT TOP 1 usuario_admin, SUM(preco_total_venda) as 'Ganho total do funcionário no mês' FROM Venda WHERE CONVERT(VARCHAR(25), data_venda, 126) LIKE '{data}' GROUP BY(usuario_admin) ORDER BY SUM(preco_total_venda) DESC";
+            DataTable tabela_mais_vendeu = gerenciador.ConsultarBanco(consulta_mais_vendeu);
+
             if (tabela_ganhos.Rows[0][0].ToString() != "")
+            {
                 numGanhos.Value = (decimal)tabela_ganhos.Rows[0][0];
-            else numGanhos.Value = 0;
+                txtFuncionario.Text = $"{tabela_mais_vendeu.Rows[0]["usuario_admin"].ToString()} - R$ {tabela_mais_vendeu.Rows[0]["Ganho total do funcionário no mês"].ToString()}";
+            }
+            else
+            {
+                numGanhos.Value = 0;
+                txtFuncionario.Text = "";
+            }
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)

@@ -19,6 +19,7 @@ namespace PDV.classes
         public DataBaseManager(string nomeBanco)
         {
             string caminhoDoBanco = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..\..\"));
+            //string caminhoDoBanco = AppDomain.CurrentDomain.BaseDirectory;
             stringDeConexao = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='" + caminhoDoBanco + nomeBanco + @".mdf';Integrated Security=True";
 
             conexao = new SqlConnection(stringDeConexao);

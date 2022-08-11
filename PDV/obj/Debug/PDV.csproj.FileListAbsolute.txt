@@ -17,8 +17,6 @@ C:\Users\Karin Marie\Desktop\PDV\PDV\obj\Debug\PDV.csproj.CopyComplete
 C:\Users\Karin Marie\Desktop\PDV\PDV\obj\Debug\PDV.exe
 C:\Users\Karin Marie\Desktop\PDV\PDV\obj\Debug\PDV.pdb
 C:\Users\Karin Marie\Desktop\PDV\PDV\obj\Debug\PDV.forms.form_gerenciar.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\banco.mdf
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\banco_log.ldf
 C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\PDV.exe.config
 C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\PDV.exe
 C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\PDV.pdb
@@ -42,28 +40,44 @@ C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\obj\Debug\PDV.forms.form_ven
 C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\obj\Debug\PDV.forms.form_gerenciar_avancado.resources
 C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\obj\Debug\PDV.forms.form_historico.resources
 C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\obj\Debug\PDV.forms.form_ajuda.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\bin\Debug\banco.mdf
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\bin\Debug\banco_log.ldf
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\bin\Debug\PDV.exe.config
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\bin\Debug\PDV.exe
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\bin\Debug\PDV.pdb
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\bin\Debug\MetroFramework.Design.dll
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\bin\Debug\MetroFramework.dll
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.csproj.AssemblyReference.cache
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.csproj.SuggestedBindingRedirects.cache
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.forms.form_ajuda.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.forms.form_gerenciar.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.forms.form_gerenciar_avancado.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.forms.form_gerenciar_funcionarios.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.forms.form_gerenciar_produtos.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.forms.form_historico.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.form_login.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.forms.form_principal.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.forms.form_vender.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.Properties.Resources.resources
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.csproj.GenerateResource.cache
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.csproj.CoreCompileInputs.cache
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.csproj.CopyComplete
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.exe
-C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v0.15-beta)\PDV\obj\Debug\PDV.pdb
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\tutorial\1. cadastrar_funcionario.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\tutorial\2. excluir_funcionario.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\tutorial\3. cadastrar_produto.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\tutorial\4. excluir_produto.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\tutorial\5. atualizar_estoque.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\tutorial\6. filtrar_produtos.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\tutorial\7. realizar_vendas.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\banco.mdf
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV\PDV\bin\Debug\banco_log.ldf
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\banco.mdf
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\banco_log.ldf
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\tutorial\1. cadastrar_funcionario.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\tutorial\2. excluir_funcionario.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\tutorial\3. cadastrar_produto.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\tutorial\4. excluir_produto.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\tutorial\5. atualizar_estoque.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\tutorial\6. filtrar_produtos.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\tutorial\7. realizar_vendas.txt
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\PDV.exe.config
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\PDV.exe
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\PDV.pdb
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\MetroFramework.Design.dll
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\MetroFramework.dll
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.csproj.AssemblyReference.cache
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.forms.form_ajuda.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.forms.form_gerenciar.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.forms.form_gerenciar_avancado.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.forms.form_gerenciar_funcionarios.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.forms.form_gerenciar_produtos.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.forms.form_historico.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.form_login.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.forms.form_principal.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.forms.form_vender.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.Properties.Resources.resources
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.csproj.GenerateResource.cache
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.csproj.CoreCompileInputs.cache
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.csproj.CopyComplete
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.exe
+C:\Users\Karin Marie\Desktop\Sorveteria PDV\PDV (v1.0-beta)\PDV\obj\Debug\PDV.pdb

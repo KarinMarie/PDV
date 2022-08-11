@@ -1,0 +1,7 @@
+1. Faça o log-in;
+
+2. Clique em "GERENCIAMENTO";
+
+3. Clique em "GERENCIAR FUNCIONÁRIOS";
+
+4. Preencha o usuário do funcionário que se deseja excluir e clique em "REMOVER".

@@ -40,16 +40,16 @@ namespace PDV.forms
 
         private void adicionar_produto()
         {
-            if (string.IsNullOrEmpty(txtNome.Text) || num_preco.Value == 0 || cb_categoria.Text == "")
+            if (string.IsNullOrEmpty(txtNome.Text) || numPreco.Value == 0 || cbCategoria.Text == "")
             {
                 MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             
             string nome = txtNome.Text;
-            decimal preco = num_preco.Value;
-            int estoque = (int)num_estoque.Value;
-            string categoria = cb_categoria.Text;
+            decimal preco = numPreco.Value;
+            int estoque = (int)numEstoque.Value;
+            string categoria = cbCategoria.Text;
 
             string insercao = $"INSERT INTO Produto VALUES('{nome}', {preco}, {estoque}, '{categoria}')";
 
@@ -67,13 +67,13 @@ namespace PDV.forms
 
         private void excluir_produto()
         {
-            if(num_cod.Value == 0)
+            if(numCod.Value == 0)
             {
                 MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            int codigo = (int)num_cod.Value;
+            int codigo = (int)numCod.Value;
 
             string delecao = $"DELETE FROM Produto WHERE codigo_produto = {codigo}";
 
@@ -154,9 +154,9 @@ namespace PDV.forms
             if(sucesso_adicao)
             {
                 txtNome.Text = "";
-                num_preco.Value = 0;
-                num_estoque.Value = 0;
-                cb_categoria.SelectedIndex = -1;
+                numPreco.Value = 0;
+                numEstoque.Value = 0;
+                cbCategoria.SelectedIndex = -1;
             } 
         }
 
@@ -165,7 +165,7 @@ namespace PDV.forms
             excluir_produto();
 
             if (sucesso_exclusao)
-                num_cod.Value = 0;
+                numCod.Value = 0;
         }
 
         private void btnAtualizar_Click(object sender, EventArgs e)

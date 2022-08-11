@@ -293,7 +293,7 @@
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
             this.Style = MetroFramework.MetroColorStyle.Pink;
-            this.Text = "Gerenciar Funcionários";
+            this.Text = "Gerenciar funcionários";
             this.Load += new System.EventHandler(this.form_gerenciar_funcionarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).EndInit();
             this.groupBox1.ResumeLayout(false);
