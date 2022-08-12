@@ -1,41 +1,41 @@
-# PDV - IN CONSTRUCTION
+# PDV
 
-	|||   LATEST RELEASE: v1.0-beta   |||
+	|||   LATEST RELEASE: v1.1.0   |||
 
 Project of a system which manages a store, its products and its employees.
 
-![image](https://user-images.githubusercontent.com/93265472/183269809-2b4cc3a6-7a9d-4940-a780-d4ea8535d38d.png)
+![Log-in Menu](https://user-images.githubusercontent.com/93265472/184386328-7362c1bd-177b-4ec1-a2db-96ddc7fd6854.png)
 
-![image](https://user-images.githubusercontent.com/93265472/183269828-bca41819-5d9b-4033-a34f-c867ce2e87f1.png)
+![Main Menu](https://user-images.githubusercontent.com/93265472/184386478-cec0aa24-16b0-4e6a-a064-8297cdc42f97.png)
 
-![image](https://user-images.githubusercontent.com/93265472/183269837-95344267-2c0c-4bc1-8e57-bd06d2c1c495.png)
+![Selling Menu](https://user-images.githubusercontent.com/93265472/184387511-0e1aee1c-d992-4f9a-835e-6007048999d9.png)
 
-![image](https://user-images.githubusercontent.com/93265472/182510721-86b1e50f-48aa-4e3b-8a29-3954f2b7fe8d.png)
+![Sales History Menu](https://user-images.githubusercontent.com/93265472/184387631-e356bdfb-7334-406c-a1f3-f6b0e3e1b765.png)
 
-![image](https://user-images.githubusercontent.com/93265472/182672565-243a3752-042a-407c-9d68-4c9fe47bcbb8.png)
+![Management Menu](https://user-images.githubusercontent.com/93265472/184387746-009e50d3-0bc1-41d8-b696-d17cdfacb02d.png)
 
-![image](https://user-images.githubusercontent.com/93265472/182672665-97f6e4f1-9d53-4984-acee-7091e3eeeb30.png)
+![Manage Employees Menu](https://user-images.githubusercontent.com/93265472/184387889-d17fe82a-708b-4ea4-a7d1-433b9b6c91e7.png)
 
-![image](https://user-images.githubusercontent.com/93265472/183269842-147ed092-1ddf-4274-aaa0-91cf611738b0.png)
+![Manage Products Menu](https://user-images.githubusercontent.com/93265472/184387994-54e7dc0b-fc23-4836-a648-a38898d0f5a0.png)
 
-![image](https://user-images.githubusercontent.com/93265472/183522088-3aebdcd3-1710-4fa3-b80f-a3c4910be007.png)
+![Advanced Management Menu](https://user-images.githubusercontent.com/93265472/184388081-b04a9577-c667-4ad3-b4da-98ab40e607b4.png)
 
-![image](https://user-images.githubusercontent.com/93265472/183303143-ec3fe2fc-0958-4a5c-87c6-02e74af13fa8.png)
+![Help Menu](https://user-images.githubusercontent.com/93265472/184388174-6b563008-56ae-476f-a642-ec4a321b9b99.png)
 
 <br>
 
 # DATABASE PROJECT
 
     CONCEPTUAL DATA MODEL    
-![modelo_conceitual](https://user-images.githubusercontent.com/93265472/182511792-3227503f-d122-4406-8330-68e9a851a050.jpg)
+![Conceptual Data Model](https://user-images.githubusercontent.com/93265472/184388602-e51871ca-b790-4cd4-b9be-993ea4dacbe7.jpg)
 
     LOGICAL DATA MODEL
-![modelo_logico](https://user-images.githubusercontent.com/93265472/182511877-0ead8444-1aff-47a2-b05b-2505eb9a121d.jpg)
+![Logical Data Model](https://user-images.githubusercontent.com/93265472/184388655-34251cc7-11c4-4ac5-bd0f-afcf43f0b9fb.jpg)
 
 <br>
 
 # REFERENCES
-Here are the projects that inspired me
+Here are the projects and websites that inspired me
 
 [Newbie Aulas - Criando interface moderna estilo aplicativo](https://youtu.be/b_d3J3o-Rk8)
 <br>
@@ -44,5 +44,7 @@ Here are the projects that inspired me
 [P O L A R T Z - Devlog - Gabriel PDV C# - Sistema pdv feito em c#](https://youtu.be/KmDALbS4mcw)
 <br>
 [Leandro Poloni Dantas - C# - Como imprimir um TextBox e um PictureBox](https://youtu.be/Dp1x8RDa4fQ)
+<br>
+[FAVICON GENERATOR / GENERATE FROM EMOJI](https://favicon.io/emoji-favicons/)
 
 Thank you all for the good-quality content!
