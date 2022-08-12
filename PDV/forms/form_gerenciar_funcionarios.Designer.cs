@@ -153,7 +153,7 @@
             this.txtSenhaAdicionar.Location = new System.Drawing.Point(8, 128);
             this.txtSenhaAdicionar.MaxLength = 32767;
             this.txtSenhaAdicionar.Name = "txtSenhaAdicionar";
-            this.txtSenhaAdicionar.PasswordChar = '\0';
+            this.txtSenhaAdicionar.PasswordChar = '●';
             this.txtSenhaAdicionar.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtSenhaAdicionar.SelectedText = "";
             this.txtSenhaAdicionar.SelectionLength = 0;
