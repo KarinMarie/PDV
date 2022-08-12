@@ -1,0 +1,22 @@
+-> PDV (1.1.0) <-
+
+
+- - - ATENÇÃO - - -
+
+Para seu primeiro log-in, utilize o cadastro abaixo:
+	Usuário: Admin
+	Senha: 123456
+
+Esse cadastro pode ser apagado posteriormente.
+
+
+
+- - - CONTATO - - -
+
+https://github.com/KarinMarie
+
+
+
+- - - PÁGINA DO PROJETO - - -
+
+Acesse (https://github.com/KarinMarie/PDV) para ver as atualizações do projeto!

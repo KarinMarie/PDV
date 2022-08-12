@@ -56,14 +56,25 @@ namespace PDV.forms
                 case "EXCLUIR UM PRODUTO":
                     carregar_problema(3);
                     break;
+
                 case "ATUALIZAR ESTOQUE":
                     carregar_problema(4);
                     break;
+
                 case "FILTRAR PRODUTOS":
                     carregar_problema(5);
                     break;
+
                 case "REALIZAR VENDAS":
                     carregar_problema(6);
+                    break;
+
+                case "VISUALIZAR HISTÓRICO DE VENDAS":
+                    carregar_problema(7);
+                    break;
+
+                case "APAGAR TODOS OS REGISTROS":
+                    carregar_problema(8);
                     break;
             }
         }

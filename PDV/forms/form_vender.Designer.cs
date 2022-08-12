@@ -87,6 +87,9 @@
             // 
             // btnImprimir
             // 
+            this.btnImprimir.AccessibleDescription = "Clique aqui para imprimir a nota após a conclusão da venda.";
+            this.btnImprimir.AccessibleName = "Botão de imprimir nota.";
+            this.btnImprimir.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu;
             this.btnImprimir.Enabled = false;
             this.btnImprimir.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnImprimir.FontWeight = MetroFramework.MetroButtonWeight.Regular;
@@ -101,6 +104,9 @@
             // 
             // txtNota
             // 
+            this.txtNota.AccessibleDescription = "Aqui está a nota a ser gerada pela venda em curso.";
+            this.txtNota.AccessibleName = "Nota da compra.";
+            this.txtNota.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             // 
             // 
             // 
@@ -136,11 +142,14 @@
             // 
             // txtAdmin
             // 
+            this.txtAdmin.AccessibleDescription = "Aqui está o funcionário que efetua a venda.";
+            this.txtAdmin.AccessibleName = "Funcionário.";
+            this.txtAdmin.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             // 
             // 
             // 
             this.txtAdmin.CustomButton.Image = null;
-            this.txtAdmin.CustomButton.Location = new System.Drawing.Point(159, 1);
+            this.txtAdmin.CustomButton.Location = new System.Drawing.Point(178, 1);
             this.txtAdmin.CustomButton.Name = "";
             this.txtAdmin.CustomButton.Size = new System.Drawing.Size(29, 29);
             this.txtAdmin.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -150,7 +159,7 @@
             this.txtAdmin.CustomButton.Visible = false;
             this.txtAdmin.FontSize = MetroFramework.MetroTextBoxSize.Tall;
             this.txtAdmin.Lines = new string[0];
-            this.txtAdmin.Location = new System.Drawing.Point(152, 82);
+            this.txtAdmin.Location = new System.Drawing.Point(133, 88);
             this.txtAdmin.MaxLength = 32767;
             this.txtAdmin.Multiline = true;
             this.txtAdmin.Name = "txtAdmin";
@@ -161,7 +170,7 @@
             this.txtAdmin.SelectionLength = 0;
             this.txtAdmin.SelectionStart = 0;
             this.txtAdmin.ShortcutsEnabled = true;
-            this.txtAdmin.Size = new System.Drawing.Size(189, 31);
+            this.txtAdmin.Size = new System.Drawing.Size(208, 31);
             this.txtAdmin.Style = MetroFramework.MetroColorStyle.Pink;
             this.txtAdmin.TabIndex = 3;
             this.txtAdmin.UseSelectable = true;
@@ -175,15 +184,17 @@
             this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel2.Location = new System.Drawing.Point(10, 88);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(140, 25);
+            this.metroLabel2.Size = new System.Drawing.Size(117, 25);
             this.metroLabel2.TabIndex = 2;
-            this.metroLabel2.Text = "Administrador:";
+            this.metroLabel2.Text = "Funcionário:";
             // 
             // numTotal
             // 
+            this.numTotal.AccessibleDescription = "Aqui está o preço total da venda em curso.";
+            this.numTotal.AccessibleName = "Preço Total em reais.";
             this.numTotal.DecimalPlaces = 2;
             this.numTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numTotal.Location = new System.Drawing.Point(165, 35);
+            this.numTotal.Location = new System.Drawing.Point(169, 34);
             this.numTotal.Maximum = new decimal(new int[] {
             10000000,
             0,
@@ -191,7 +202,7 @@
             0});
             this.numTotal.Name = "numTotal";
             this.numTotal.ReadOnly = true;
-            this.numTotal.Size = new System.Drawing.Size(176, 31);
+            this.numTotal.Size = new System.Drawing.Size(172, 31);
             this.numTotal.TabIndex = 1;
             // 
             // metroLabel1
@@ -199,7 +210,7 @@
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel1.Location = new System.Drawing.Point(6, 35);
+            this.metroLabel1.Location = new System.Drawing.Point(10, 34);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(153, 25);
             this.metroLabel1.TabIndex = 0;
@@ -207,7 +218,10 @@
             // 
             // btnConcluir
             // 
+            this.btnConcluir.AccessibleDescription = "Clique aqui para concluir a venda e emitir a nota da compra.";
+            this.btnConcluir.AccessibleName = "Botão de Concluir Venda.";
             this.btnConcluir.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnConcluir.Enabled = false;
             this.btnConcluir.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnConcluir.Location = new System.Drawing.Point(542, 791);
             this.btnConcluir.Name = "btnConcluir";
@@ -219,6 +233,10 @@
             // 
             // view_produtos
             // 
+            this.view_produtos.AccessibleDescription = "Aqui estão todos os produtos disponíveis para venda, juntamente com seus códigos," +
+    " preços, estoques e categorias.";
+            this.view_produtos.AccessibleName = "Tabela de produtos disponíveis.";
+            this.view_produtos.AccessibleRole = System.Windows.Forms.AccessibleRole.Table;
             this.view_produtos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.view_produtos.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.codigo_produto,
@@ -262,6 +280,8 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.AccessibleDescription = "Clique aqui para voltar ao menu anterior.";
+            this.btnVoltar.AccessibleName = "Botão de Voltar.";
             this.btnVoltar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnVoltar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnVoltar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
@@ -296,6 +316,7 @@
             // 
             // numCodigoProduto
             // 
+            this.numCodigoProduto.AccessibleName = "Código do produto a ser vendido.";
             this.numCodigoProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numCodigoProduto.Location = new System.Drawing.Point(193, 35);
             this.numCodigoProduto.Maximum = new decimal(new int[] {
@@ -321,6 +342,8 @@
             // 
             // btnAdicionarProdutos
             // 
+            this.btnAdicionarProdutos.AccessibleDescription = "Clique aqui para adicionar um produto à venda em curso.";
+            this.btnAdicionarProdutos.AccessibleName = "Botão de adicionar ao carrinho.";
             this.btnAdicionarProdutos.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnAdicionarProdutos.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnAdicionarProdutos.Location = new System.Drawing.Point(10, 260);
@@ -334,6 +357,7 @@
             // 
             // numQuantidadeProduto
             // 
+            this.numQuantidadeProduto.AccessibleName = "Quantidade de unidades do produto a ser vendido.";
             this.numQuantidadeProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numQuantidadeProduto.Location = new System.Drawing.Point(193, 174);
             this.numQuantidadeProduto.Maximum = new decimal(new int[] {
@@ -368,6 +392,7 @@
             // 
             // numPrecoProduto
             // 
+            this.numPrecoProduto.AccessibleName = "Preço do produto a ser vendido.";
             this.numPrecoProduto.DecimalPlaces = 2;
             this.numPrecoProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numPrecoProduto.Location = new System.Drawing.Point(193, 130);
@@ -394,6 +419,8 @@
             // 
             // txtNomeProduto
             // 
+            this.txtNomeProduto.AccessibleName = "Nome do produto a ser vendido.";
+            this.txtNomeProduto.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             // 
             // 
             // 
@@ -439,7 +466,10 @@
             // 
             // btnCancelar
             // 
+            this.btnCancelar.AccessibleDescription = "Clique aqui para cancelar a venda em curso.";
+            this.btnCancelar.AccessibleName = "Botão de Cancelar Venda.";
             this.btnCancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCancelar.Enabled = false;
             this.btnCancelar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnCancelar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnCancelar.Location = new System.Drawing.Point(315, 791);
@@ -464,6 +494,7 @@
             // 
             // txtHora
             // 
+            this.txtHora.AccessibleName = "Horário atual.";
             this.txtHora.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtHora.AutoSize = true;
             this.txtHora.FontSize = MetroFramework.MetroLabelSize.Tall;

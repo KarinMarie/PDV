@@ -37,6 +37,9 @@
             // 
             // cbProblema
             // 
+            this.cbProblema.AccessibleDescription = "Selecione aqui o problema no qual você precisa de instruções.";
+            this.cbProblema.AccessibleName = "Campo de selecionar problema.";
+            this.cbProblema.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.cbProblema.FontSize = MetroFramework.MetroComboBoxSize.Tall;
             this.cbProblema.FormattingEnabled = true;
             this.cbProblema.ItemHeight = 29;
@@ -47,7 +50,9 @@
             "EXCLUIR UM PRODUTO",
             "ATUALIZAR ESTOQUE",
             "FILTRAR PRODUTOS",
-            "REALIZAR VENDAS"});
+            "REALIZAR VENDAS",
+            "VISUALIZAR HISTÓRICO DE VENDAS",
+            "APAGAR TODOS OS REGISTROS"});
             this.cbProblema.Location = new System.Drawing.Point(23, 119);
             this.cbProblema.Name = "cbProblema";
             this.cbProblema.Size = new System.Drawing.Size(336, 35);
@@ -68,6 +73,9 @@
             // 
             // txtTutorial
             // 
+            this.txtTutorial.AccessibleDescription = "Aqui está o tutorial para te guiar na solução do problema.";
+            this.txtTutorial.AccessibleName = "Instruções para resolver o problema.";
+            this.txtTutorial.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             // 
             // 
             // 
@@ -102,6 +110,8 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.AccessibleDescription = "Clique aqui para voltar ao menu anterior.";
+            this.btnVoltar.AccessibleName = "Botão de Voltar.";
             this.btnVoltar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnVoltar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnVoltar.Location = new System.Drawing.Point(23, 637);

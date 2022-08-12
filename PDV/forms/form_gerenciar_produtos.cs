@@ -22,6 +22,8 @@ namespace PDV.forms
         public form_gerenciar_produtos()
         {
             InitializeComponent();
+
+            carregar_produto_pelo_codigo();
         }
 
         private void carregar_produtos()
@@ -89,29 +91,31 @@ namespace PDV.forms
                 MessageBox.Show("Erro ao deletar produto, tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        private void atualizar_estoque()
+        private void atualizar_produto()
         {
-            if (numCodigoEstoque.Value == 0)
+            if (numCodigoAtualizar.Value == 0)
             {
                 MessageBox.Show("Por favor, insira corretamente todos os dados necessários.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            int codigo = (int)numCodigoEstoque.Value;
-            int estoque = (int)numNovoEstoque.Value;
+            int codigo = (int)numCodigoAtualizar.Value;
+            string nome = txtNomeAtualizar.Text;
+            decimal preco = numPrecoAtualizar.Value;
+            int estoque = (int)numEstoqueAtualizar.Value;
 
-            string atualizacao = $"UPDATE Produto SET estoque_produto = {estoque} WHERE codigo_produto = {codigo}";
+            string atualizacao = $"UPDATE Produto SET nome_produto = '{nome}', preco_produto = {preco}, estoque_produto = {estoque} WHERE codigo_produto = {codigo}";
 
             int confirmacao = gerenciador.AtualizarBanco(atualizacao);
 
             if (confirmacao == 1)
             {
                 sucesso_atualizacao = true;
-                MessageBox.Show("Estoque atualizado com êxito!", "Atualizar estoque", MessageBoxButtons.OK, MessageBoxIcon.None);
+                MessageBox.Show("Produto atualizado com êxito!", "Atualizar produto", MessageBoxButtons.OK, MessageBoxIcon.None);
                 carregar_produtos();
             }
             else
-                MessageBox.Show("Erro ao atualizar estoque produto, tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Erro ao atualizar produto, tente novamente.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void filtrar_produtos()
@@ -133,6 +137,28 @@ namespace PDV.forms
             foreach (DataRow row in tabela.Rows)
             {
                 dataGrid.Rows.Add(row["codigo_produto"], row["nome_produto"], row["preco_produto"], row["estoque_produto"], row["categoria_produto"]);
+            }
+        }
+
+        private void carregar_produto_pelo_codigo()
+        {
+            int codigo = (int)numCodigoAtualizar.Value;
+
+            string consulta = $"SELECT * FROM Produto WHERE codigo_produto = {codigo}";
+
+            DataTable tabela = gerenciador.ConsultarBanco(consulta);
+
+            if (tabela.Rows.Count > 0)
+            {
+                txtNomeAtualizar.Text = tabela.Rows[0]["nome_produto"].ToString();
+                numPrecoAtualizar.Value = Convert.ToDecimal(tabela.Rows[0]["preco_produto"]);
+                numEstoqueAtualizar.Value = Convert.ToDecimal(tabela.Rows[0]["estoque_produto"]);
+            }
+            else
+            {
+                txtNomeAtualizar.Text = "";
+                numPrecoAtualizar.Value = 0;
+                numEstoqueAtualizar.Value = 0;
             }
         }
 
@@ -170,12 +196,12 @@ namespace PDV.forms
 
         private void btnAtualizar_Click(object sender, EventArgs e)
         {
-            atualizar_estoque();
+            atualizar_produto();
 
             if (sucesso_atualizacao)
             {
-                numCodigoEstoque.Value = 0;
-                numNovoEstoque.Value = 0;
+                numCodigoAtualizar.Value = 1;
+                numEstoqueAtualizar.Value = 0;
             }
         }
 
@@ -190,19 +216,9 @@ namespace PDV.forms
             carregar_produtos();
         }
 
-        private void cb_categoria_SelectedIndexChanged(object sender, EventArgs e)
+        private void numCodigoAtualizar_ValueChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void cbFiltrarCategoria_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtNome_Click(object sender, EventArgs e)
-        {
-
+            carregar_produto_pelo_codigo();
         }
     }
 }

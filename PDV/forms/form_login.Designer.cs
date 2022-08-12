@@ -50,6 +50,9 @@
             // 
             // txtUsuario
             // 
+            this.txtUsuario.AccessibleDescription = "Insira o seu usuário aqui para realizar o log-in.";
+            this.txtUsuario.AccessibleName = "Campo de usuário.";
+            this.txtUsuario.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             // 
             // 
             // 
@@ -84,6 +87,9 @@
             // 
             // txtSenha
             // 
+            this.txtSenha.AccessibleDescription = "Insira sua senha aqui para realizar o log-in.";
+            this.txtSenha.AccessibleName = "Campo de senha.";
+            this.txtSenha.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             // 
             // 
             // 
@@ -128,6 +134,9 @@
             // 
             // btnLogar
             // 
+            this.btnLogar.AccessibleDescription = "Clique aqui para realizar o log-in.";
+            this.btnLogar.AccessibleName = "Botão de logar.";
+            this.btnLogar.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu;
             this.btnLogar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnLogar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnLogar.Location = new System.Drawing.Point(23, 276);
@@ -141,6 +150,7 @@
             // 
             // lblAviso
             // 
+            this.lblAviso.AccessibleRole = System.Windows.Forms.AccessibleRole.Alert;
             this.lblAviso.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.lblAviso.Location = new System.Drawing.Point(23, 336);
             this.lblAviso.Name = "lblAviso";
@@ -151,6 +161,9 @@
             // 
             // chkMostrarSenha
             // 
+            this.chkMostrarSenha.AccessibleDescription = "Clique aqui se deseja que sua senha seja visível.";
+            this.chkMostrarSenha.AccessibleName = "Botão de mostrar senha.";
+            this.chkMostrarSenha.AccessibleRole = System.Windows.Forms.AccessibleRole.CheckButton;
             this.chkMostrarSenha.AutoSize = true;
             this.chkMostrarSenha.Location = new System.Drawing.Point(23, 223);
             this.chkMostrarSenha.Name = "chkMostrarSenha";

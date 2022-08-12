@@ -111,6 +111,9 @@ namespace PDV.forms
 
             view_produtos.Items.RemoveAt(ultimo_index_selecionado);
             preco_total_compra += preco * quantidade;
+
+            btnConcluir.Enabled = true;
+            btnCancelar.Enabled = true;
         }
 
         private void vender()
@@ -181,12 +184,18 @@ namespace PDV.forms
         {
             vender();
             atualizacoes_estoque.Clear();
+
+            btnConcluir.Enabled = false;
+            btnCancelar.Enabled = false;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             limpar_tudo();
             atualizacoes_estoque.Clear();
+
+            btnConcluir.Enabled = false;
+            btnCancelar.Enabled = false;
         }
 
         private void btnImprimir_Click(object sender, EventArgs e)

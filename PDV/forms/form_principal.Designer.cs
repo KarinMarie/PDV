@@ -39,6 +39,9 @@
             // 
             // btnVender
             // 
+            this.btnVender.AccessibleDescription = "Clique aqui para entrar no menu de vendas.";
+            this.btnVender.AccessibleName = "Botão de Efetuar Vendas.";
+            this.btnVender.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu;
             this.btnVender.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnVender.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnVender.Location = new System.Drawing.Point(23, 109);
@@ -51,6 +54,10 @@
             // 
             // btnGerenciar
             // 
+            this.btnGerenciar.AccessibleDescription = "Clique aqui para acessar o menu de gerenciamento, em que você pode cadastrar func" +
+    "ionários, produtos e até apagar a base de dados.";
+            this.btnGerenciar.AccessibleName = "Botão de Gerenciamento.";
+            this.btnGerenciar.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu;
             this.btnGerenciar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnGerenciar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnGerenciar.Location = new System.Drawing.Point(23, 238);
@@ -63,6 +70,9 @@
             // 
             // btnAjuda
             // 
+            this.btnAjuda.AccessibleDescription = "Clique aqui para obter informações sobre a utilização do programa.";
+            this.btnAjuda.AccessibleName = "Botão de Ajuda.";
+            this.btnAjuda.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu;
             this.btnAjuda.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnAjuda.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnAjuda.Location = new System.Drawing.Point(23, 302);
@@ -75,6 +85,8 @@
             // 
             // btnSair
             // 
+            this.btnSair.AccessibleDescription = "Clique aqui para fechar todas as abas do programa e sair.";
+            this.btnSair.AccessibleName = "Botão de Sair,";
             this.btnSair.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnSair.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnSair.Location = new System.Drawing.Point(23, 413);
@@ -99,6 +111,9 @@
             // 
             // btnHistorico
             // 
+            this.btnHistorico.AccessibleDescription = "Clique aqui para acessar o histórico de vendas.";
+            this.btnHistorico.AccessibleName = "Botão do Histórico de Vendas.";
+            this.btnHistorico.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu;
             this.btnHistorico.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnHistorico.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnHistorico.Location = new System.Drawing.Point(23, 173);

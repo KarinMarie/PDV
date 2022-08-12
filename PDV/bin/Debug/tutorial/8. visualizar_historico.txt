@@ -1,0 +1,5 @@
+1. Faça log-in;
+
+2. Clique em "HISTÓRICO DE VENDAS";
+
+3. Se desejar, você pode filtrar as vendas por mês e ano para, assim, visualizar o balanço de cada mês.

@@ -54,6 +54,10 @@
             // 
             // lvVendas
             // 
+            this.lvVendas.AccessibleDescription = "Aqui estão todas as vendas realizadas no programa em um determinado mês, jutament" +
+    "e com suas datas, o valor da venda e o funcionário que a realizou.";
+            this.lvVendas.AccessibleName = "Tabela de Vendas.";
+            this.lvVendas.AccessibleRole = System.Windows.Forms.AccessibleRole.Table;
             this.lvVendas.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.data_venda,
             this.preco_total_venda,
@@ -83,6 +87,8 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.AccessibleDescription = "Clique aqui para voltar ao menu anterior.";
+            this.btnVoltar.AccessibleName = "Botão de Voltar.";
             this.btnVoltar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnVoltar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnVoltar.Location = new System.Drawing.Point(23, 592);
@@ -112,6 +118,8 @@
             // 
             // btnLimparFiltro
             // 
+            this.btnLimparFiltro.AccessibleDescription = "Clique aqui para voltar a ver todas as vendas do mês e ano atuais.";
+            this.btnLimparFiltro.AccessibleName = "Botão de Limpar Filtro.";
             this.btnLimparFiltro.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnLimparFiltro.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnLimparFiltro.Location = new System.Drawing.Point(14, 222);
@@ -125,6 +133,8 @@
             // 
             // numAno
             // 
+            this.numAno.AccessibleDescription = "Insira aqui o ano no qual você deseja ver as vendas, relacionado ao mês.";
+            this.numAno.AccessibleName = "Campo de Ano para filtrar vendas.";
             this.numAno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numAno.Location = new System.Drawing.Point(57, 86);
             this.numAno.Maximum = new decimal(new int[] {
@@ -138,6 +148,9 @@
             // 
             // cbMes
             // 
+            this.cbMes.AccessibleDescription = "Selecione aqui o mês em que você deseja ver todas as vendas.";
+            this.cbMes.AccessibleName = "Campo de Mês para filtrar as vendas do mês.";
+            this.cbMes.AccessibleRole = System.Windows.Forms.AccessibleRole.ComboBox;
             this.cbMes.FontSize = MetroFramework.MetroComboBoxSize.Tall;
             this.cbMes.FormattingEnabled = true;
             this.cbMes.ItemHeight = 29;
@@ -174,6 +187,8 @@
             // 
             // btnFiltrar
             // 
+            this.btnFiltrar.AccessibleDescription = "Clique aqui para ver todas as vendas do mês e ano selecionados.";
+            this.btnFiltrar.AccessibleName = "Botão de Filtrar.";
             this.btnFiltrar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnFiltrar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnFiltrar.Location = new System.Drawing.Point(14, 164);
@@ -198,6 +213,9 @@
             // 
             // txtFuncionario
             // 
+            this.txtFuncionario.AccessibleDescription = "Aqui está o funcionário que mais vendeu no mês e ano selecionados e o total que o" +
+    " mesmo ganhou em vendas.";
+            this.txtFuncionario.AccessibleName = "Funcionário que mais vendeu.";
             // 
             // 
             // 
@@ -242,6 +260,9 @@
             // 
             // numGanhos
             // 
+            this.numGanhos.AccessibleDescription = "Aqui está o total arrecadado por todos os funcionários no mês e ano selecionados." +
+    "";
+            this.numGanhos.AccessibleName = "Total em ganhos do mês.";
             this.numGanhos.DecimalPlaces = 2;
             this.numGanhos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numGanhos.Location = new System.Drawing.Point(14, 153);

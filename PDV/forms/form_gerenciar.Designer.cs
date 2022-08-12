@@ -37,6 +37,8 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.AccessibleDescription = "Clique aqui para voltar ao menu anterior.";
+            this.btnVoltar.AccessibleName = "Botão de Voltar.";
             this.btnVoltar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnVoltar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnVoltar.Location = new System.Drawing.Point(23, 356);
@@ -49,6 +51,9 @@
             // 
             // btnProdutos
             // 
+            this.btnProdutos.AccessibleDescription = "Clique aqui para ver a lista de produtos e modificá-los, se necessário.";
+            this.btnProdutos.AccessibleName = "Botão de Gerenciar Produtos.";
+            this.btnProdutos.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu;
             this.btnProdutos.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnProdutos.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnProdutos.Location = new System.Drawing.Point(23, 179);
@@ -61,6 +66,10 @@
             // 
             // btnFuncionarios
             // 
+            this.btnFuncionarios.AccessibleDescription = "Clique aqui para ver a lista de funcionários, adicionar um funcionário ou remover" +
+    " um funcionário.";
+            this.btnFuncionarios.AccessibleName = "Botão de Gerenciar Funcionários.";
+            this.btnFuncionarios.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu;
             this.btnFuncionarios.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnFuncionarios.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnFuncionarios.Location = new System.Drawing.Point(23, 116);
@@ -73,6 +82,9 @@
             // 
             // btnAvancado
             // 
+            this.btnAvancado.AccessibleDescription = "Clique aqui para ver as opções avançadas de gerenciamento.";
+            this.btnAvancado.AccessibleName = "Botão de Gerenciamento Avançado.";
+            this.btnAvancado.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu;
             this.btnAvancado.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnAvancado.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnAvancado.Location = new System.Drawing.Point(23, 244);

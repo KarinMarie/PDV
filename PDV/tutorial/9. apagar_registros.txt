@@ -1,0 +1,9 @@
+1. Faça log-in;
+
+2. Clique em "GERENCIAMENTO";
+
+3. Clique em "AVANÇADO";
+
+4. Clique em "APAGAR TODOS OS REGISTROS".
+
+ATENÇÃO: essa ação não pode ser desfeita!

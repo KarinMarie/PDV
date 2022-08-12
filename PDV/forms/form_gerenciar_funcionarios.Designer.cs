@@ -51,6 +51,10 @@
             // 
             // dataGrid
             // 
+            this.dataGrid.AccessibleDescription = "Aqui estão todos os funcionários, com seus usuários, números de vendas e ganhos t" +
+    "otais em vendas.";
+            this.dataGrid.AccessibleName = "Tabela de funcionários.";
+            this.dataGrid.AccessibleRole = System.Windows.Forms.AccessibleRole.Table;
             this.dataGrid.AllowUserToAddRows = false;
             this.dataGrid.AllowUserToDeleteRows = false;
             this.dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -84,6 +88,8 @@
             // 
             // btnVoltar
             // 
+            this.btnVoltar.AccessibleDescription = "Clique aqui para voltar ao menu anterior.";
+            this.btnVoltar.AccessibleName = "Botão de Voltar";
             this.btnVoltar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnVoltar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnVoltar.Location = new System.Drawing.Point(23, 471);
@@ -105,16 +111,18 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(395, 73);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(258, 248);
+            this.groupBox1.Size = new System.Drawing.Size(252, 248);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ADICIONAR FUNCIONÁRIO";
             // 
             // btnAdicionar
             // 
+            this.btnAdicionar.AccessibleDescription = "Clique aqui para adicionar um novo funcionário.";
+            this.btnAdicionar.AccessibleName = "Botão de adicionar funcionário.";
             this.btnAdicionar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnAdicionar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnAdicionar.Location = new System.Drawing.Point(8, 192);
+            this.btnAdicionar.Location = new System.Drawing.Point(8, 189);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(234, 42);
             this.btnAdicionar.Style = MetroFramework.MetroColorStyle.Pink;
@@ -125,11 +133,14 @@
             // 
             // txtSenhaAdicionar
             // 
+            this.txtSenhaAdicionar.AccessibleDescription = "Insira aqui a senha do funcionário a ser adicionado.";
+            this.txtSenhaAdicionar.AccessibleName = "Campo de senha para adicionar funcionário.";
+            this.txtSenhaAdicionar.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             // 
             // 
             // 
             this.txtSenhaAdicionar.CustomButton.Image = null;
-            this.txtSenhaAdicionar.CustomButton.Location = new System.Drawing.Point(197, 1);
+            this.txtSenhaAdicionar.CustomButton.Location = new System.Drawing.Point(204, 1);
             this.txtSenhaAdicionar.CustomButton.Name = "";
             this.txtSenhaAdicionar.CustomButton.Size = new System.Drawing.Size(29, 29);
             this.txtSenhaAdicionar.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -139,7 +150,7 @@
             this.txtSenhaAdicionar.CustomButton.Visible = false;
             this.txtSenhaAdicionar.FontSize = MetroFramework.MetroTextBoxSize.Tall;
             this.txtSenhaAdicionar.Lines = new string[0];
-            this.txtSenhaAdicionar.Location = new System.Drawing.Point(15, 131);
+            this.txtSenhaAdicionar.Location = new System.Drawing.Point(8, 128);
             this.txtSenhaAdicionar.MaxLength = 32767;
             this.txtSenhaAdicionar.Name = "txtSenhaAdicionar";
             this.txtSenhaAdicionar.PasswordChar = '\0';
@@ -148,7 +159,7 @@
             this.txtSenhaAdicionar.SelectionLength = 0;
             this.txtSenhaAdicionar.SelectionStart = 0;
             this.txtSenhaAdicionar.ShortcutsEnabled = true;
-            this.txtSenhaAdicionar.Size = new System.Drawing.Size(227, 31);
+            this.txtSenhaAdicionar.Size = new System.Drawing.Size(234, 31);
             this.txtSenhaAdicionar.Style = MetroFramework.MetroColorStyle.Pink;
             this.txtSenhaAdicionar.TabIndex = 5;
             this.txtSenhaAdicionar.UseSelectable = true;
@@ -160,7 +171,7 @@
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel2.Location = new System.Drawing.Point(6, 103);
+            this.metroLabel2.Location = new System.Drawing.Point(6, 100);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(64, 25);
             this.metroLabel2.TabIndex = 4;
@@ -168,11 +179,14 @@
             // 
             // txtUsuarioAdicionar
             // 
+            this.txtUsuarioAdicionar.AccessibleDescription = "Insira aqui o usuário do funcionário a ser adicionado.";
+            this.txtUsuarioAdicionar.AccessibleName = "Campo de usuário para adicionar novo funcionario.";
+            this.txtUsuarioAdicionar.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             // 
             // 
             // 
             this.txtUsuarioAdicionar.CustomButton.Image = null;
-            this.txtUsuarioAdicionar.CustomButton.Location = new System.Drawing.Point(197, 1);
+            this.txtUsuarioAdicionar.CustomButton.Location = new System.Drawing.Point(204, 1);
             this.txtUsuarioAdicionar.CustomButton.Name = "";
             this.txtUsuarioAdicionar.CustomButton.Size = new System.Drawing.Size(29, 29);
             this.txtUsuarioAdicionar.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -182,7 +196,7 @@
             this.txtUsuarioAdicionar.CustomButton.Visible = false;
             this.txtUsuarioAdicionar.FontSize = MetroFramework.MetroTextBoxSize.Tall;
             this.txtUsuarioAdicionar.Lines = new string[0];
-            this.txtUsuarioAdicionar.Location = new System.Drawing.Point(15, 59);
+            this.txtUsuarioAdicionar.Location = new System.Drawing.Point(8, 56);
             this.txtUsuarioAdicionar.MaxLength = 32767;
             this.txtUsuarioAdicionar.Name = "txtUsuarioAdicionar";
             this.txtUsuarioAdicionar.PasswordChar = '\0';
@@ -191,7 +205,7 @@
             this.txtUsuarioAdicionar.SelectionLength = 0;
             this.txtUsuarioAdicionar.SelectionStart = 0;
             this.txtUsuarioAdicionar.ShortcutsEnabled = true;
-            this.txtUsuarioAdicionar.Size = new System.Drawing.Size(227, 31);
+            this.txtUsuarioAdicionar.Size = new System.Drawing.Size(234, 31);
             this.txtUsuarioAdicionar.Style = MetroFramework.MetroColorStyle.Pink;
             this.txtUsuarioAdicionar.TabIndex = 3;
             this.txtUsuarioAdicionar.UseSelectable = true;
@@ -203,7 +217,7 @@
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel1.Location = new System.Drawing.Point(6, 31);
+            this.metroLabel1.Location = new System.Drawing.Point(8, 28);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(76, 25);
             this.metroLabel1.TabIndex = 2;
@@ -217,13 +231,15 @@
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(395, 336);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(258, 174);
+            this.groupBox2.Size = new System.Drawing.Size(252, 174);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "REMOVER FUNCIONÁRIO";
             // 
             // btnRemover
             // 
+            this.btnRemover.AccessibleDescription = "Clique aqui para remover o usuário.";
+            this.btnRemover.AccessibleName = "Botão de Remover Usuário.";
             this.btnRemover.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnRemover.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnRemover.Location = new System.Drawing.Point(8, 114);
@@ -237,11 +253,14 @@
             // 
             // txtUsuarioRemover
             // 
+            this.txtUsuarioRemover.AccessibleDescription = "Insira aqui o usuário do funcionário a ser removido.";
+            this.txtUsuarioRemover.AccessibleName = "Campo de usuário para remover usuário.";
+            this.txtUsuarioRemover.AccessibleRole = System.Windows.Forms.AccessibleRole.Text;
             // 
             // 
             // 
             this.txtUsuarioRemover.CustomButton.Image = null;
-            this.txtUsuarioRemover.CustomButton.Location = new System.Drawing.Point(197, 1);
+            this.txtUsuarioRemover.CustomButton.Location = new System.Drawing.Point(204, 1);
             this.txtUsuarioRemover.CustomButton.Name = "";
             this.txtUsuarioRemover.CustomButton.Size = new System.Drawing.Size(29, 29);
             this.txtUsuarioRemover.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -251,7 +270,7 @@
             this.txtUsuarioRemover.CustomButton.Visible = false;
             this.txtUsuarioRemover.FontSize = MetroFramework.MetroTextBoxSize.Tall;
             this.txtUsuarioRemover.Lines = new string[0];
-            this.txtUsuarioRemover.Location = new System.Drawing.Point(15, 59);
+            this.txtUsuarioRemover.Location = new System.Drawing.Point(8, 59);
             this.txtUsuarioRemover.MaxLength = 32767;
             this.txtUsuarioRemover.Name = "txtUsuarioRemover";
             this.txtUsuarioRemover.PasswordChar = '\0';
@@ -260,7 +279,7 @@
             this.txtUsuarioRemover.SelectionLength = 0;
             this.txtUsuarioRemover.SelectionStart = 0;
             this.txtUsuarioRemover.ShortcutsEnabled = true;
-            this.txtUsuarioRemover.Size = new System.Drawing.Size(227, 31);
+            this.txtUsuarioRemover.Size = new System.Drawing.Size(234, 31);
             this.txtUsuarioRemover.Style = MetroFramework.MetroColorStyle.Pink;
             this.txtUsuarioRemover.TabIndex = 3;
             this.txtUsuarioRemover.UseSelectable = true;

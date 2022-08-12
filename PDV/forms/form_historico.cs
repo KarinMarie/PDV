@@ -19,6 +19,7 @@ namespace PDV.forms
         {
             InitializeComponent();
 
+            numGanhos.Controls.RemoveAt(0);
             carregar_mes_ano();
         }
 
@@ -189,6 +190,7 @@ namespace PDV.forms
             carregar_vendas();
             txtFuncionario.Text = "";
             numGanhos.Value = 0;
+            carregar_mes_ano();
         }
     }
 }

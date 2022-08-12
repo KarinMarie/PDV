@@ -35,6 +35,9 @@
             // 
             // btnApagarRegistros
             // 
+            this.btnApagarRegistros.AccessibleDescription = "Clique aqui se quiser apagar todos os produtos, funcionários e vendas do banco de" +
+    " dados.";
+            this.btnApagarRegistros.AccessibleName = "Botão de Apagar Todos os Registros.";
             this.btnApagarRegistros.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnApagarRegistros.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.btnApagarRegistros.Location = new System.Drawing.Point(27, 94);
@@ -68,7 +71,7 @@
             this.MaximizeBox = false;
             this.Name = "form_gerenciar_avancado";
             this.Resizable = false;
-            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.SystemShadow;
+            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
             this.Style = MetroFramework.MetroColorStyle.Pink;
             this.Text = "Avançado";
             this.ResumeLayout(false);
